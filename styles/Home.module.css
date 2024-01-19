@@ -46,6 +46,14 @@
   width: 100%;
 }
 
+.header_grid {
+  text-align: right;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(20%, auto));
+  max-width: var(--small-width);
+  width: 100%;
+}
+
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
@@ -107,6 +115,12 @@
 .logo {
   position: relative;
 }
+
+.header_image {
+  position: relative;
+  width: 100%;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
