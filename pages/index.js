@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Bio from './_bio'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -39,15 +40,9 @@ export default function Home() {
 
 {/* CENTER IMAGE */}
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
+{/*        <div className={styles.center}>*/}
+        <div className={styles.content_grid}>
+				  <Bio />
         </div>
 
 {/* STYLES GRID - LATERAL */}

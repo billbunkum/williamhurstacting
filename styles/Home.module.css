@@ -54,6 +54,14 @@
   width: 100%;
 }
 
+.content_grid {
+  text-align: left;
+	display: grid;
+	grid-template-columns: repeat(1, minmax(100%, auto));
+	max-width: var(--max-width);
+	width: 100%;
+}
+
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
@@ -114,6 +122,15 @@
 
 .logo {
   position: relative;
+}
+
+.left {
+  display: flex;
+/*  flex: 1 !important;*/
+	justify-content: left;
+  align-items: left;
+  position: relative;
+  padding: 4rem 0;
 }
 
 .header_image {
@@ -215,6 +232,10 @@
     z-index: 1;
   }
 }
+
+	.left {
+  	padding: 8rem 0 6rem;
+	}
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
