@@ -54,6 +54,13 @@
   width: 100%;
 }
 
+.header_socials {
+	text-align: right;
+	display: grid;
+	grid-template-columns: repeat(3, minmax(20%, auto));
+	width: 100%;
+}
+
 .content_grid {
   text-align: left;
 	display: grid;
@@ -162,7 +169,7 @@
     padding: 4rem;
   }
 
-  .grid {
+  .grid, .header_grid, .header_socials {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
     max-width: 320px;
@@ -239,7 +246,7 @@
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
+  .grid, .header_grid, .header_socials {
     grid-template-columns: repeat(2, 50%);
   }
 }

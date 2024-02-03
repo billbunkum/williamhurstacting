@@ -3,7 +3,6 @@ export default function Writer() {
 	<>
 		<p>
 			WRITER Stuffs.
-			~
 		</p>
 	</>
 	);
