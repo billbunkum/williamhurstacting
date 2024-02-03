@@ -55,10 +55,16 @@
 }
 
 .header_socials {
-	text-align: right;
-	display: grid;
-	grid-template-columns: repeat(3, minmax(20%, auto));
-	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-basis: 10px;
+  flex-wrap: nowrap;
+ 	align-items: center;
+}
+
+.header_socials > a > img.header_socials_image {
+	margin: 5px;
+	width: 45px;
 }
 
 .content_grid {
