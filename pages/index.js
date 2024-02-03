@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Bio from './_bio'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Bio from './_bio'
+import dreadloreWebsite from './globals/_urls'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,7 +30,7 @@ export default function Home() {
 {/* CONTENT */}
         <div className={styles.description}>
           <p>
-	  <img src="/set-shot-122431.jpeg"
+	  <img src="/assets/set-shot-122431.jpeg"
 		className={styles.header_image}
 		/> 
 	  </p>
@@ -43,21 +44,21 @@ export default function Home() {
 {/*        <div className={styles.center}>*/}
         <div className={styles.content_grid}>
 				  <Bio />
-        </div>
+				</div>
 
 {/* STYLES GRID - LATERAL */}
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href={dreadloreWebsite}
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Docs <span>-&gt;</span>
+              YouTube <span>-&gt;</span>
             </h2>
             <p>
-              Find in-depth information about Next.js features and&nbsp;API.
+							Projects
             </p>
           </a>
 
