@@ -7,6 +7,7 @@ import dreadloreWebsite from './globals/_urls'
 
 const inter = Inter({ subsets: ['latin'] })
 
+
 export default function Home() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function Home() {
 	  		<a href="#">Contact</a>
 			</div>
 
+{/* SOCIALS */}
 	<div className={styles.header_socials}>
 			<a 
 			href="https://twitter.com/darkeyesdesign">
@@ -46,14 +48,33 @@ export default function Home() {
 			</a>
 	</div>
 
-{/* CONTENT */}
-   		<div className={styles.description}>
+{/* HEADSHOTS */}
+{/*   		<div className={styles.description}>
     		<p>
 					<img src="/assets/set-shot-122431.jpeg"
 					className={styles.header_image}
 					/>
 				</p>
     	</div>
+*/}
+		<div className={styles.carousel_container}>
+    	<img className={styles.carousel_image}
+			src="/assets/headshots/serious-straight-headshot.jpg"
+			alt="Headshot Not Found"
+			/>
+      <div className={styles.controls}>
+	{/* 			<FontAwesomeIcon icon="fa-solid fa-backward-step" />			
+   	  <i id="prev-button" className={fa-solid fa-backward-step}
+					alt="Previous"></i>
+        <i id="play-button" className={fa-solid fa-play}
+					alt="Play"></i>
+        <i id="pause-button" className={fa-solid fa-pause}
+					alt="Pause"></i>
+				<i id="next-button" className={fa-solid fa-forward-step} 
+					alt="Next"></i>
+*/}
+    	</div>
+		</div>
 
 {/* CENTER IMAGE */}
 		{/*<div className={styles.center}>*/}

@@ -1,3 +1,4 @@
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,13 +6,15 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+/*  font-size: 62.5%;*/
 }
 
 .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
+	font-size: 1.2rem;
+/*  font-size: 0.85rem;*/
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
@@ -67,6 +70,31 @@
 	width: 45px;
 }
 
+.carousel_container {
+  text-align: center;
+}
+
+.carousel_image {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+/*carousel controls*/
+.controls i {
+  font-size: 3rem;
+  color: #814E52;
+  margin: 0 .8rem;
+}
+
+.controls i:hover {
+  color: #9A3554;
+}
+
+.controls i:active {
+  color: #dc4e2f; 
+}
+
+/* content */
 .content_grid {
   text-align: left;
 	display: grid;
