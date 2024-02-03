@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>William Hurst Acting</title>
+      <title>William Hurst Actor</title>
       <meta name="description" content="NextJS App" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
@@ -20,6 +20,8 @@ export default function Home() {
 
 {/* HEADER */}
     <main className={`${styles.main} ${inter.className}`}>
+
+			<h1>William Hurst</h1>
 
 			<div className={styles.header_grid}>
 	  		<a href="#">Home</a>
@@ -57,14 +59,27 @@ export default function Home() {
 				</p>
     	</div>
 */}
-		<div className={styles.carousel_container}>
-    	<img className={styles.carousel_image}
+		<div className={styles.headshot_container}>
+    	<img className={styles.headshot_image}
 			src="/assets/headshots/serious-straight-headshot.jpg"
 			alt="Headshot Not Found"
 			/>
-      <div className={styles.controls}>
-	{/* 			<FontAwesomeIcon icon="fa-solid fa-backward-step" />			
-   	  <i id="prev-button" className={fa-solid fa-backward-step}
+			<img className={styles.headshot_image}
+			src="/assets/headshots/earnest.jpg"
+			alt="Headshot Not Found"
+			/>
+			<img className={styles.headshot_image}
+			src="/assets/headshots/jean-jacket.jpg"
+			alt="Headshot Not Found"
+			/>
+			<img className={styles.headshot_image}
+			src="/assets/headshots/seedy-detective.png"
+			alt="Headshot Not Found"
+			/>
+
+{/*      <div className={styles.controls}>
+	 			<FontAwesomeIcon icon="fa-solid fa-backward-step" />			
+   	  	<i id="prev-button" className={fa-solid fa-backward-step}
 					alt="Previous"></i>
         <i id="play-button" className={fa-solid fa-play}
 					alt="Play"></i>
@@ -72,8 +87,8 @@ export default function Home() {
 					alt="Pause"></i>
 				<i id="next-button" className={fa-solid fa-forward-step} 
 					alt="Next"></i>
+ 		   	</div>
 */}
-    	</div>
 		</div>
 
 {/* CENTER IMAGE */}
