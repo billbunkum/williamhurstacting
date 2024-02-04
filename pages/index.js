@@ -4,6 +4,9 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Bio from './_bio'
 import BriefBio from './_brief-bio'
+import ReelFull from './_reel-full'
+import ReelComedic from './_reel-comedic'
+import ReelDramatic from './_reel-dramatic'
 import dreadloreWebsite from './globals/_urls'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -92,13 +95,24 @@ export default function Home() {
 */}
 		</div>
 
-{/* CENTER IMAGE */}
+{/* ACTOR TYPE */}
 		{/*<div className={styles.center}>*/}
 			<div className={styles.content_grid}>
 				<BriefBio />
 			</div>
 
-{/* STYLES GRID - LATERAL */}
+{/* REELS */}
+		<div className={styles.content_reels}>
+			<div className={styles.content_featured_reel}>
+				<ReelFull />
+			</div>
+			<div className={styles.content_side_reel}>
+				<ReelComedic />
+				<ReelDramatic />
+			</div>
+		</div>
+
+{/* LINKS ALONG BOTTOM */}
     	<div className={styles.grid}>
     		<a 
 				href={dreadloreWebsite}
