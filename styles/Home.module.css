@@ -94,19 +94,6 @@
   color: #dc4e2f; 
 }
 
-.headshot_container {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	width: auto;
-}
-
-.headshot_image {
-	flex: auto;
-	align-self: center;
-	width: 20%;
-}
-
 /* content */
 .content_grid {
   text-align: left;
@@ -114,18 +101,6 @@
 	grid-template-columns: repeat(1, minmax(100%, auto));
 	max-width: var(--max-width);
 	width: 100%;
-}
-
-.content_reels {
-
-}
-
-.content_featured_reel {
-
-}
-
-.content_side_reel {
-
 }
 
 .card {
@@ -199,9 +174,45 @@
   padding: 4rem 0;
 }
 
+.headshot_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: auto;
+}
+
+.headshot_image {
+	flex: auto;
+	align-self: center;
+	width: 20%;
+}
+
 .header_image {
   position: relative;
   width: 100%;
+}
+
+.reels_field {
+
+}
+
+.reels_featured_reel {
+
+}
+
+.reels_side_reels {
+
+}
+
+.resume_field {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /*primary axis*/
+	align-items: center; /*cross axis*/
+}
+
+.resume_image {
+	width: 100%;
 }
 
 /* Enable hover only on non-touch devices */

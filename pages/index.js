@@ -7,6 +7,7 @@ import BriefBio from './_brief-bio'
 import ReelFull from './_reel-full'
 import ReelComedic from './_reel-comedic'
 import ReelDramatic from './_reel-dramatic'
+import Resume from './_resume'
 import dreadloreWebsite from './globals/_urls'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -102,13 +103,20 @@ export default function Home() {
 			</div>
 
 {/* REELS */}
-		<div className={styles.content_reels}>
-			<div className={styles.content_featured_reel}>
+		<div className={styles.reels_field}>
+			<div className={styles.reels_featured_reel}>
 				<ReelFull />
 			</div>
-			<div className={styles.content_side_reel}>
+			<div className={styles.reels_side_reels}>
 				<ReelComedic />
 				<ReelDramatic />
+			</div>
+		</div>
+
+{/* RESUME / MEASUREMENTS */}
+		<div className={styles.resume_field}>
+			<div className={styles.resume_image}>
+				<Resume />
 			</div>
 		</div>
 
