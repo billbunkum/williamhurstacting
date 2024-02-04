@@ -115,9 +115,7 @@ export default function Home() {
 
 {/* RESUME / MEASUREMENTS */}
 		<div className={styles.resume_field}>
-			<div className={styles.resume_image}>
-				<Resume />
-			</div>
+			<Resume />
 		</div>
 
 {/* LINKS ALONG BOTTOM */}
