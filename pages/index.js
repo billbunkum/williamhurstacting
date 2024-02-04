@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Bio from './_bio'
+import BriefBio from './_brief-bio'
 import dreadloreWebsite from './globals/_urls'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -94,7 +95,7 @@ export default function Home() {
 {/* CENTER IMAGE */}
 		{/*<div className={styles.center}>*/}
 			<div className={styles.content_grid}>
-				<Bio />
+				<BriefBio />
 			</div>
 
 {/* STYLES GRID - LATERAL */}
