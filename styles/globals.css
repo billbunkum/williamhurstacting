@@ -1,4 +1,8 @@
 :root {
+/*FONTS*/
+	.advent-pro {
+		font-family: var(--font-advent-pro);
+	}	
   --small-width: 800px;
   --max-width: 1100px;
   --border-radius: 12px;

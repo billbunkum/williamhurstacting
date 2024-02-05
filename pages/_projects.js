@@ -9,7 +9,9 @@ export default function Projects() {
 				src="https://www.youtube.com/embed/fX_eVzZflXE?si=vtbMgybyGy5_rM5i" 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen>
+				allowfullscreen
+				alt="Nocturne"
+				>
 			</iframe>
 
 			{/*The Startup web series*/}
@@ -20,8 +22,9 @@ export default function Projects() {
 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen>
+				allowfullscreen
 				alt="The Startup web series"
+				>
 			</iframe>
 
 			{/*The Biz*/}
@@ -31,7 +34,9 @@ export default function Projects() {
 				src="https://www.youtube.com/embed/vToNdyuSoAs?si=GoOLOYISeY0E_kn5" 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen>
+				allowfullscreen
+				alt="The Biz"
+				>
 			</iframe>
 
 		</>

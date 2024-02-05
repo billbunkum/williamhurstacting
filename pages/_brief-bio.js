@@ -3,9 +3,11 @@
 export default function BriefBio() {
 	return (
 		<>
-		<p>Type: William exels at playing dark, brooding antiheroes and 
-&nbsp;villains, as well as the intelligent but clueless heartthrob.
-</p>
+		<h2>Character Type</h2>	
+		<p>William exels at playing the nerdy love interest,
+the quirky office worker, or the brooding antihero,
+coniving villain, or sardonic gameshow host.
+		</p>
 		</>
 	);
 }
