@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter, Advent_Pro, Lexend } from 'next/font/google'
+import { Advent_Pro, Inter, Lexend } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import dreadloreWebsite from './globals/_urls'
 
@@ -16,8 +16,8 @@ import ReelFull from './_reel-full'
 import Resume from './_resume'
 import SocialIcons from './_social-icons'
 
-const inter = Inter({ subsets: ['latin'] })
-const advent = Advent_Pro({ subsets: ['latin'] })
+{/*const inter = Inter({ subsets: ['latin'] })
+const advent = Advent_Pro({ subsets: ['latin'] })*/}
 const lexend = Lexend({ subsets: ['latin-ext'] });
 
 export default function Home() {
