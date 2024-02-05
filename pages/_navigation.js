@@ -3,14 +3,15 @@ import styles from '@/styles/Home.module.css'
 export default function Navigation() {
 	return (
 		<>
-		{/*	<div className={styles.header_grid}>*/}
-	  		<a href="#">Home</a>
-	  		<a href="https://vimeo.com/williamrichardhurst">Reel</a>
-	  		<a href="#">Resume</a>
-	  		<a href="#">Contact</a>
-				<a href="#">About</a>
-				<a href="#">Projects</a>
-		{/*	</div>*/}
+{/*CHILD OF <main>*/}
+			<div className={styles.navigation_items}>
+	  		<a href="#">HOME</a>
+	  		<a href="https://vimeo.com/williamrichardhurst">REEL</a>
+	  		<a href="#">RESUME</a>
+	  		<a href="#">CONTACT</a>
+				<a href="#">ABOUT</a>
+				<a href="#">PROJECTS</a>
+			</div>
 		</>
 	);
 }

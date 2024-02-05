@@ -4,6 +4,7 @@ import { Advent_Pro, Inter, Lexend } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import dreadloreWebsite from './globals/_urls'
 
+import ActorBioFull from './_actor-bio-full'
 import Bio from './_bio'
 import BriefBio from './_brief-bio'
 import CoolButtonLinks from './_cool-button-links'
@@ -30,14 +31,14 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
 		</Head>
 
-{/* SET UP StylesS AND Font */}
+{/* SET UP Styles AND Font */}
     <main className={`${styles.main} ${lexend.className}`}>
 {/*    <main className={`${styles.main} ${inter.className}`}>*/}
 
 		<h1>William Hurst</h1>
 
 {/* NAVIGATION */}
-		<div>
+		<div className={styles.navigation}>
 			<Navigation />
 		</div>
 
@@ -52,10 +53,9 @@ export default function Home() {
 		</div>
 
 {/* ACTOR TYPE */}
-		{/*<div className={styles.center}>*/}
-			<div className={styles.content_grid}>
-				<BriefBio />
-			</div>
+		<div className={styles.brief_bio_text}>
+			<BriefBio />
+		</div>
 
 {/* REELS */}
 		<div className={styles.reels_field}>
@@ -76,6 +76,12 @@ export default function Home() {
 {/* PROJECTS */}
 		<div>
 			<Projects />
+		</div>
+
+
+{/* ACTOR BIO FULL */}
+		<div>
+			<ActorBioFull />
 		</div>
 
 {/* FOOTER LINKS */}

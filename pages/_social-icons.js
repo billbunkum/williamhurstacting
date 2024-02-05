@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 export default function SocialIcons() {
 	return (
 		<>
+{/* CHILD OF <main> */}
 		<div className={styles.header_socials}>
 			<a 
 			href="https://twitter.com/darkeyesdesign">

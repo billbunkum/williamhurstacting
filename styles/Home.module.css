@@ -6,21 +6,21 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-/*  font-size: 62.5%;*/
 }
 
+/*
 .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
 	font-size: 1.2rem;
-/*  font-size: 0.85rem;*/
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
 }
-
+*/
+/*
 .description a {
   display: flex;
   justify-content: center;
@@ -56,8 +56,9 @@
   max-width: var(--small-width);
   width: 100%;
 }
+*/
 
-.header_socials {
+.header_socials { /*USED IN _social-icons.js*/
 	display: flex;
 	flex-direction: row;
 	flex-basis: 10px;
@@ -70,32 +71,8 @@
 	width: 45px;
 }
 
-.carousel_container {
-  text-align: center;
-}
-
-.carousel_image {
-  max-width: 50%;
-  max-height: 50%;
-}
-
-/*carousel controls*/
-.controls i {
-  font-size: 3rem;
-  color: #814E52;
-  margin: 0 .8rem;
-}
-
-.controls i:hover {
-  color: #9A3554;
-}
-
-.controls i:active {
-  color: #dc4e2f; 
-}
-
 /* content */
-.content_grid {
+.brief_bio_text {
   text-align: left;
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100%, auto));
@@ -103,6 +80,7 @@
 	width: 100%;
 }
 
+/* UNUSED FANCY COOL BUTTONS */
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
@@ -129,6 +107,7 @@
   max-width: 30ch;
 }
 
+/* UNUSED */
 .center {
   display: flex;
   justify-content: center;
@@ -192,6 +171,17 @@
   width: 100%;
 }
 
+.navigation {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation_items a {
+	padding: 30px;	
+}
 .reels_field {
 
 }
