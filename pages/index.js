@@ -8,6 +8,7 @@ import ReelFull from './_reel-full'
 import ReelComedic from './_reel-comedic'
 import ReelDramatic from './_reel-dramatic'
 import Resume from './_resume'
+import Projects from './_projects'
 import dreadloreWebsite from './globals/_urls'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -116,6 +117,11 @@ export default function Home() {
 {/* RESUME / MEASUREMENTS */}
 		<div className={styles.resume_field}>
 			<Resume />
+		</div>
+
+{/* PROJECTS */}
+		<div>
+			<Projects />
 		</div>
 
 {/* LINKS ALONG BOTTOM */}
