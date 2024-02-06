@@ -38,17 +38,19 @@ export default function Home() {
 		<h1>William Hurst</h1>
 
 {/* NAVIGATION */}
-		<div className={styles.navigation}>
-			<Navigation />
+		<div className={styles.main_navigation}>
+			<div className={styles.navigation}>
+				<Navigation />
+			</div>
 		</div>
 
 {/* SOCIALS */}
-		<div>
+		<div className={styles.main_socials}>
 			<SocialIcons />
 		</div>
 
 {/* HEADSHOTS */}
-		<div>
+		<div className={styles.main_headshots}>
 			<Headshots />
 		</div>
 
