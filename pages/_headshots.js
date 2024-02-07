@@ -11,6 +11,11 @@ export default function Headshots() {
 			/>
 
 			<img className={styles.headshots_items}
+			src="/assets/headshots/seedy-detective.png"
+			alt="Headshot Not Found"
+			/>
+
+			<img className={styles.headshots_items}
 			src="/assets/headshots/jean-jacket.jpg"
 			alt="Headshot Not Found"
 			/>
@@ -20,10 +25,6 @@ export default function Headshots() {
 			alt="Headshot Not Found"
 			/>
 
-			<img className={styles.headshots_items}
-			src="/assets/headshots/seedy-detective.png"
-			alt="Headshot Not Found"
-			/>
 		</div>
 	</>
 	);
