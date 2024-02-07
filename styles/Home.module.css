@@ -1,40 +1,51 @@
-
 .main {
+	background-color: darkgrey;
+
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
 
-.main_navigation {
-
+.main_title {
+	background-color: darkblue;
+	width: 100%;
 }
-	.navigation {
+	.title_items {
+	background-color: black;
+}
+
+.main_navigation {
+	background-color: blue;
+	width: 100%;
+	padding: 2rem;
+}
+	.navigation_items {
+		background-color: black;
 		display: flex;
 		flex-direction: row;
-		padding: 2rem;
+	  justify-content: space-evenly;	
+		align-items: center;
 	}
-
 	.navigation_items a {
-		padding: 30px;	
+		padding: 20px;
 	}
 
 .main_socials {
-
+	background-color: lightblue;
+	width: 100%;
 }
-	.socials { /*USED IN _social-icons.js*/
+	.socials_items {
+		background-color: black;
 		display: flex;
 		flex-direction: row;
-		flex-basis: 10px;
-  	flex-wrap: nowrap;
- 		align-items: center;
+		justify-content: flex-end;
+		align-items: center;
 	}
-
-	.socials > a > img.socials_items {
-		margin: 5px;
-		width: 45px;
+	.socials_items a > img {
+		margin: 0px 5px 0px 5px;
+		width: 50px;
 	}
 
 .main_headshots {
