@@ -30,7 +30,7 @@
 		justify-content: center;
 	}
 	.navigation_items a {
-		padding: 20px;
+		margin: 20px;
 	}
 
 .main_socials {
@@ -51,20 +51,37 @@
 
 .main_headshots {
 	background-color: blue;
-	padding: 1rem;
 	width: 100%;
 }
 	.headshots {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: space-evenly;
+		justify-content: center;
+		align-items: center;
 	}
 
 	img.headshots_items {
-		flex-grow: 0; /*DOES NOT ALLOW ITEMS TO GROW*/
+		flex-grow: 1; 
+		flex-shrink: 0;
+		flex-basis: 23%;
 		object-fit: contain; /*KEEPS ASPECT RATIO WITHIN BOX*/
-		width: 300px;
+/*		width: calc(100% * (1/4) - 10px - 1px);*/ /*KEEPS FOUR ON ROW DESPITE SCREEN*/
+		min-width: 300px;
+		max-width: 500px;
+		align-content: space-between;
+	}
+	.serious_headshot {
+		order: 1;
+}
+	.seedy_headshot {
+		order: 2;
+}
+	.jeanjacket_headshot {
+		order: 3;
+}
+	.earnest_headshot {
+		order: 4;
 }
 
 .main_reels {
