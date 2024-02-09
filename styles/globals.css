@@ -105,6 +105,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+	color: red;
+}
+
+li {
+	list-style: none;	
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

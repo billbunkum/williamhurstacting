@@ -3,9 +3,6 @@
 
   display: flex;
   flex-direction: column;
-	flex-wrap: wrap;
-  align-items: center;
-	align-content: center;
   min-height: 100vh;
 	margin: 0.5rem;
 }
@@ -25,20 +22,19 @@
 	.navigation_items {
 		background-color: black;
 		display: flex;
-		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: center;
 	}
 	.navigation_items a {
-		margin: 20px;
+		margin: 10px 20px 10px 20px;
 	}
 
 .main_socials {
-	background-color: lightblue;
+	background-color: red;
 	width: 100%;
 }
 	.socials_items {
-		background-color: black;
+		background-color: blue;
+		padding: 1%;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
@@ -50,7 +46,7 @@
 	}
 
 .main_headshots {
-	background-color: blue;
+/*	background-color: blue;*/
 	width: 100%;
 }
 	.headshots {

@@ -4,12 +4,26 @@ export default function Navigation() {
 	return (
 		<>
 			<div className={styles.navigation_items}>
-	  		<a href="#">HOME</a>
-	  		<a href="https://vimeo.com/williamrichardhurst">REEL</a>
-	  		<a href="#">RESUME</a>
-	  		<a href="#">CONTACT</a>
-				<a href="#">ABOUT</a>
-				<a href="#">PROJECTS</a>
+				<ul>
+	  			<li>
+						<a href="#">HOME</a>
+						</li>
+	  			<li>
+						<a href="https://vimeo.com/williamrichardhurst">REEL</a>
+						</li>
+					<li>
+						<a href="#">RESUME</a>
+						</li>
+					<li>
+	  				<a href="#">CONTACT</a>
+						</li>
+					<li>					
+						<a href="#">ABOUT</a>
+						</li>
+					<li>
+						<a href="#">PROJECTS</a>
+						</li>
+				</ul>
 			</div>
 		</>
 	);
