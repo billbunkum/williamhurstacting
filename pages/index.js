@@ -61,7 +61,7 @@ export default function Home() {
 		</div>
 
 {/* REELS */}
-		<div className={styles.reels_field}>
+		<div className={styles.main_reels}>
 			<div className={styles.reels_featured_reel}>
 				<ReelFull />
 			</div>
