@@ -56,7 +56,7 @@ export default function Home() {
 		</div>
 
 {/* ACTOR TYPE */}
-		<div className={styles.brief_bio_text}>
+		<div className={styles.main_brief_bio}>
 			<BriefBio />
 		</div>
 

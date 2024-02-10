@@ -1,6 +1,5 @@
 .main {
 	background-color: darkgrey;
-
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -16,13 +15,16 @@
 }
 
 .main_navigation {
-	background-color: blue;
-	width: 100%;
+	background-color: lightblue;
+	padding: 1%;
 }
-	.navigation_items {
+	.navigation_items ul {
 		background-color: black;
 		display: flex;
+		flex-direction: row;
 		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: space-evenly;
 	}
 	.navigation_items a {
 		margin: 10px 20px 10px 20px;
@@ -40,6 +42,7 @@
 		justify-content: flex-end;
 		align-items: center;
 	}
+
 	.socials_items a > img {
 		margin: 0px 5px 0px 5px;
 		width: 50px;
@@ -53,19 +56,18 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
+		justify-content: space-between;
+		align-items: flex-start;
 	}
 
 	img.headshots_items {
 		flex-grow: 1; 
 		flex-shrink: 0;
 		flex-basis: 23%;
-		object-fit: contain; /*KEEPS ASPECT RATIO WITHIN BOX*/
-/*		width: calc(100% * (1/4) - 10px - 1px);*/ /*KEEPS FOUR ON ROW DESPITE SCREEN*/
+		object-fit: contain; 
 		min-width: 300px;
 		max-width: 500px;
-		align-content: space-between;
+		align-content: flex-start;
 	}
 	.serious_headshot {
 		order: 1;
@@ -79,6 +81,19 @@
 	.earnest_headshot {
 		order: 4;
 }
+
+/* content */
+.main_brief_bio {
+	background-color: darkgreen;
+	justify-content: center;
+	}
+
+	.brief_bio {
+	background-color: grey;
+	width: 70%;
+
+	}
+
 
 .main_reels {
 
@@ -149,14 +164,6 @@
 */
 
 
-/* content */
-.brief_bio_text {
-  text-align: left;
-	display: grid;
-	grid-template-columns: repeat(1, minmax(100%, auto));
-	max-width: var(--max-width);
-	width: 100%;
-}
 
 /* UNUSED FANCY COOL BUTTONS */
 .card {
