@@ -39,19 +39,17 @@
   }
 }
 
-.main_socials {
-	background-color: red;
-	width: 100%;
+.socials {
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 	.socials_items {
-		background-color: blue;
-		padding: 1%;
 		display: flex;
-		flex-direction: row;
-		justify-content: flex-end;
 		align-items: center;
+		padding: .2rem;
 	}
-
 	.socials_items a > img {
 		margin: 0px 5px 0px 5px;
 		width: 50px;

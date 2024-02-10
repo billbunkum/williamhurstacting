@@ -45,7 +45,7 @@ export default function Home() {
 		</div>
 
 {/* SOCIALS */}
-		<div className={styles.main_socials}>
+		<div className={styles.socials}>
 			<SocialIcons />
 		</div>
 
