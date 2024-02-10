@@ -1,22 +1,24 @@
 .main {
 	background-color: darkgrey;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
-	margin: 0.5rem;
+	margin: 0.8rem;
 }
 
 .main_title {
 	background-color: darkblue;
-	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;	
 }
-	.title_items {
-	background-color: black;
+
+.main_title h1 {
+	padding: 1rem;
 }
 
 .main_navigation {
 	background-color: lightblue;
-	padding: 1%;
+	padding: 1rem;
 }
 	.navigation_items ul {
 		background-color: black;

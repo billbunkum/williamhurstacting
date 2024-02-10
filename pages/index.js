@@ -24,21 +24,20 @@ const lexend = Lexend({ subsets: ['latin-ext'] });
 export default function Home() {
   return (
  <>
-    <Head>
-      <title>William Hurst Actor</title>
-      <meta name="description" content="NextJS App" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/favicon.ico" />
-		</Head>
+	<Head>
+  	<title>William Hurst Actor</title>
+    <meta name="description" content="NextJS App" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" />
+	</Head>
 
 {/* SET UP Styles AND Font */}
-    <main className={`${styles.main} ${lexend.className}`}>
+  <main className={`${styles.main} ${lexend.className}`}>
 {/*    <main className={`${styles.main} ${inter.className}`}>*/}
 
-		<h1 className={styles.main_title}>
-			<span className={styles.title_items}>
-				William Hurst</span>
-		</h1>
+		<div className={styles.main_title}>
+			<h1>William Hurst</h1>
+		</div>
 
 {/* NAVIGATION */}
 		<div className={styles.main_navigation}>
