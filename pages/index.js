@@ -7,6 +7,7 @@ import dreadloreWebsite from './globals/_urls'
 import ActorBioFull from './_actor-bio-full'
 import Bio from './_bio'
 import BriefBio from './_brief-bio'
+import BioImages from './_bio-images'
 import CoolButtonLinks from './_cool-button-links'
 import Headshots from './_headshots'
 import Navigation from './_navigation'
@@ -50,13 +51,14 @@ export default function Home() {
 		</div>
 
 {/* HEADSHOTS */}
-		<div className={styles.main_headshots}>
+		<div className={styles.headshots}>
 			<Headshots />
 		</div>
 
 {/* ACTOR TYPE */}
-		<div className={styles.main_brief_bio}>
+		<div className={styles.brief_bio_container}>
 			<BriefBio />
+			<BioImages />
 		</div>
 
 {/* REELS */}

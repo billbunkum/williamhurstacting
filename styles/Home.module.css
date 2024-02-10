@@ -1,5 +1,4 @@
 .main {
-	background-color: darkgrey;
   min-height: 100vh;
 	margin: 0.8rem;
 }
@@ -85,18 +84,48 @@
 		order: 4;
 	}
 
-/* content */
-.main_brief_bio {
-	background-color: darkgreen;
+.brief_bio_container {
+/*	background-color: darkgreen;*/
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
 	justify-content: center;
+	align-items: stretch;
+	width: 100%;
+}
+	.brief_bio_text {
+		background-color: orange;
+		padding: 4rem;
+	}
+	.brief_bio_text__troubled_man {
+		object-fit: contain;
+		max-width: 400px;
 	}
 
-	.brief_bio {
-	background-color: grey;
-	width: 70%;
-
+.brief_bio__bio_images {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+	.brief_bio__bio_images img {
+  	display: flex;
+		object-fit: contain;
+		min-width: 250px;
+		max-width: 400px;
 	}
 
+.love_interest, .confident_villian_thebiz, .ennui_macbeth, .arthur {
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .brief_bio_container {
+		flex-wrap: wrap;
+  }
+	.brief_bio_text {
+		padding: 1rem;
+	}
+}
 
 .main_reels {
 
