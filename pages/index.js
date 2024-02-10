@@ -35,12 +35,12 @@ export default function Home() {
   <main className={`${styles.main} ${lexend.className}`}>
 {/*    <main className={`${styles.main} ${inter.className}`}>*/}
 
-		<div className={styles.main_title}>
+		<div className={styles.title}>
 			<h1>William Hurst</h1>
 		</div>
 
 {/* NAVIGATION */}
-		<div className={styles.main_navigation}>
+		<div className={styles.navigation}>
 		  <Navigation />
 		</div>
 
