@@ -55,21 +55,17 @@
 		width: 50px;
 	}
 
-.main_headshots {
-/*	background-color: blue;*/
+.headshots {
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 }
-	.headshots {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: flex-start;
-	}
-
 	img.headshots_items {
 		flex-grow: 1; 
-		flex-shrink: 0;
 		flex-basis: 23%;
 		object-fit: contain; 
 		min-width: 300px;
@@ -78,16 +74,16 @@
 	}
 	.serious_headshot {
 		order: 1;
-}
+	}
 	.seedy_headshot {
 		order: 2;
-}
+	}
 	.jeanjacket_headshot {
 		order: 3;
-}
+	}
 	.earnest_headshot {
 		order: 4;
-}
+	}
 
 /* content */
 .main_brief_bio {
