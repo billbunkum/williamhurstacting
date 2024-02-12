@@ -4,7 +4,6 @@
 }
 
 .title {
-	background-color: darkblue;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -16,7 +15,6 @@
 }
 
 .navigation {
-	background-color: black;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -39,7 +37,6 @@
 }
 
 .socials {
-	background-color: orange;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -55,7 +52,6 @@
 	}
 
 .headshots {
-	background-color: blue;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -85,7 +81,7 @@
 	}
 
 .brief_bio_container {
-/*	background-color: darkgreen;*/
+	background-color: darkgreen;
 	display: flex;
 	flex-direction: row-reverse;
 	flex-wrap: nowrap;
@@ -94,7 +90,6 @@
 	width: 100%;
 }
 	.brief_bio_text {
-		background-color: orange;
 		padding: 4rem;
 	}
 	.brief_bio_text__troubled_man {
