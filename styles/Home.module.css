@@ -134,17 +134,31 @@
 	}
 }
 
-.main_reels {
-
+.reels_container {
+	background-color: darkred;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
-
-.reels_featured_reel {
-
-}
-
-.reels_side_reels {
-
-}
+	.reels_featured_reel {
+		display: flex;
+		align-self: center;
+	}
+	.reels_featured_reel iframe {
+		width: 700px;
+		height: 394px;
+	}
+	.reels_side_reels {
+		display: flex;
+		flex-direction: column;
+	}
+	.reels_side_reels iframe {
+		width: 560px;
+		height: 315px
+	}
 
 .resume_field {
 }
