@@ -3,8 +3,6 @@ import styles from '@/styles/Home.module.css'
 export default function Headshots() {
 	return (
 	<>
-		<div className={styles.headshots}>
-
     	<img className={[styles.headshots_items, styles.serious_headshot].join(" ")}
 			src="/assets/headshots/serious-straight-headshot.jpg"
 			alt="Headshot Not Found"
@@ -24,8 +22,6 @@ export default function Headshots() {
 			src="/assets/headshots/earnest.jpg"
 			alt="Headshot Not Found"
 			/>
-
-		</div>
 	</>
 	);
 }
