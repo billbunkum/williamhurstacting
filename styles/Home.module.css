@@ -159,6 +159,19 @@
 		width: 560px;
 		height: 315px
 	}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .reels_container {
+		flex-wrap: wrap;
+		justify-content: center;
+  }
+		.reels_featured_reel, .reels_side_reels {
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			width: 100%;
+		}
+}
 
 .resume_field {
 }
