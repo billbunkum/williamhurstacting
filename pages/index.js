@@ -37,20 +37,25 @@ export default function Home() {
 		<div className={styles.title}>
 			<h1>William Hurst</h1>
 		</div>
-
+<hr />
 {/* NAVIGATION */}
 		<div className={styles.navigation}>
 		  <Navigation />
 		</div>
 
 {/* SOCIALS */}
-		<div className={styles.socials}>
+		<div className={styles.socials_container}>
 			<SocialIcons />
 		</div>
 
 {/* HEADSHOTS */}
 		<div className={styles.headshots}>
 			<Headshots />
+		</div>
+
+{/* FLAVOR TEXT FOR REELS */}
+		<div className={styles.flavortext_container}>
+			<h2>Actor Reels</h2>
 		</div>
 
 {/* REELS */}
@@ -71,7 +76,7 @@ export default function Home() {
 		</div>
 
 {/* FOOTER LINKS */}
-		<div>
+		<div className={styles.navigation}>
 			<Navigation />
 		</div>
 
