@@ -11,11 +11,9 @@ import BioImages from './_bio-images'
 import CoolButtonLinks from './_cool-button-links'
 import Headshots from './_headshots'
 import Navigation from './_navigation'
-import Projects from './_projects'
 import ReelComedic from './_reel-comedic'
 import ReelDramatic from './_reel-dramatic'
 import ReelFull from './_reel-full'
-import Resume from './_resume'
 import SocialIcons from './_social-icons'
 
 {/*const inter = Inter({ subsets: ['latin'] })
@@ -55,12 +53,6 @@ export default function Home() {
 			<Headshots />
 		</div>
 
-{/* ACTOR TYPE */}
-		<div className={styles.brief_bio_container}>
-			<BriefBio />
-			<BioImages />
-		</div>
-
 {/* REELS */}
 		<div className={styles.main_reels}>
 			<div className={styles.reels_featured_reel}>
@@ -72,20 +64,10 @@ export default function Home() {
 			</div>
 		</div>
 
-{/* RESUME / MEASUREMENTS */}
-		<div className={styles.resume_field}>
-			<Resume />
-		</div>
-
-{/* PROJECTS */}
-		<div>
-			<Projects />
-		</div>
-
-
-{/* ACTOR BIO FULL */}
-		<div>
-			<ActorBioFull />
+{/* ACTOR TYPE */}
+		<div className={styles.brief_bio_container}>
+			<BriefBio />
+			<BioImages />
 		</div>
 
 {/* FOOTER LINKS */}

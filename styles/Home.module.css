@@ -81,7 +81,6 @@
 	}
 
 .brief_bio_container {
-	background-color: darkgreen;
 	display: flex;
 	flex-direction: row-reverse;
 	flex-wrap: nowrap;
@@ -90,18 +89,15 @@
 	width: 100%;
 }
 	.brief_bio_text {
+		background-color: darkgreen;
 		padding: 4rem;
 	}
-	.brief_bio_text__troubled_man {
-		object-fit: contain;
-		max-width: 400px;
-	}
 
-.brief_bio__bio_images {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
+	.brief_bio__bio_images {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
 	.brief_bio__bio_images img {
   	display: flex;
 		object-fit: contain;
@@ -109,8 +105,24 @@
 		max-width: 400px;
 	}
 
-.love_interest, .confident_villian_thebiz, .ennui_macbeth, .arthur {
-}
+		.love_interest {
+			order: 6;
+		}
+		.confident_villian_thebiz {
+			order: 2;
+		}
+		.ennui_macbeth {
+			order: 3;
+		}
+		.arthur {
+			order: 4;
+		}
+		.hundred_years_uncertain {
+			order: 5;
+		}
+		.king_of_cribbage_flummoxed {
+			order: 1;
+		}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
