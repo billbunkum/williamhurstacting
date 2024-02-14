@@ -3,6 +3,8 @@ import { Advent_Pro, Inter, Lexend } from 'next/font/google'
 
 import HeaderPart from './components/_header-part'
 
+import BriefBio from './components/_brief-bio'
+import BioImages from './components/_bio-images'
 import Navigation from './components/_navigation'
 import ReelComedic from './components/_reel-comedic'
 import ReelDramatic from './components/_reel-dramatic'
@@ -37,9 +39,10 @@ export default function ProjectsPage() {
 				</div>
 
 			{/* PROJECTS */}
-				<div>
+				<div className={styles.brief_bio_container}>
+					<BriefBio />
+					<BioImages />
 				</div>
-
 
 			{/* FOOTER LINKS */}
 				<div className={styles.navigation}>
