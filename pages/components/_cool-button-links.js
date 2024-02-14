@@ -1,5 +1,4 @@
 import styles from '@/styles/Home.module.css'
-import dreadloreWebsite from './globals/_urls'
 
 export default function CoolButtonLinks() {
 	return (
