@@ -3,6 +3,7 @@ import { Advent_Pro, Inter, Lexend } from 'next/font/google'
 
 import HeaderPart from './components/_header-part'
 
+import ActorBioFull from './components/_actor-bio-full'
 import Navigation from './components/_navigation'
 import ReelComedic from './components/_reel-comedic'
 import ReelDramatic from './components/_reel-dramatic'
@@ -38,6 +39,7 @@ export default function AboutPage() {
 
 			{/* ABOUT ME */}
 				<div>
+					<ActorBioFull />
 				</div>
 
 
