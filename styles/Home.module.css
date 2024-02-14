@@ -203,9 +203,9 @@
 }
 
 .resume_field {
-}
-
-.resume_image {
+	display: flex;
+	flex-direction: column;
+	width: 100%;	
 }
 
 /*

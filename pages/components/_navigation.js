@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '@/styles/Home.module.css'
 
 export default function Navigation() {
@@ -6,13 +7,13 @@ export default function Navigation() {
 			<div className={styles.navigation_items}>
 				<ul>
 	  			<li>
-						<a href="#">HOME</a>
+						<a href="/">HOME</a>
 						</li>
 	  			<li>
 						<a href="https://vimeo.com/williamrichardhurst">REEL</a>
 						</li>
 					<li>
-						<a href="#">RESUME</a>
+						<Link href="/_resume-page">RESUME</Link>
 						</li>
 					<li>
 	  				<a href="#">CONTACT</a>

@@ -1,8 +1,13 @@
+import Link from 'next/Link'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import { Advent_Pro, Inter, Lexend } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
+import HeaderPart from './components/_header-part'
+
+/*MY COMPONENTS*/
 import BriefBio from './components/_brief-bio'
 import BioImages from './components/_bio-images'
 import CoolButtonLinks from './components/_cool-button-links'
@@ -20,21 +25,19 @@ const lexend = Lexend({ subsets: ['latin-ext'] });
 export default function Home() {
   return (
  <>
-	<Head>
-  	<title>William Hurst Actor</title>
-    <meta name="description" content="NextJS App" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
-	</Head>
+{/* HEAD METADATA */}
+	<HeaderPart />
 
 {/* SET UP Styles AND Font */}
   <main className={`${styles.main} ${lexend.className}`}>
 {/*    <main className={`${styles.main} ${inter.className}`}>*/}
 
+{/*	PAGE TITLE */}
 		<div className={styles.title}>
 			<h1>William Hurst</h1>
 		</div>
-<hr />
+		<hr />
+
 {/* NAVIGATION */}
 		<div className={styles.navigation}>
 		  <Navigation />

@@ -7,7 +7,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-			  <script src="carousel.js" />
       </body>
     </Html>
   )
