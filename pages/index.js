@@ -54,7 +54,7 @@ export default function Home() {
 		</div>
 
 {/* FLAVOR TEXT FOR REELS */}
-		<div className={styles.flavortext_container}>
+		<div className={styles.heading_text_container}>
 			<h2>Actor Reels</h2>
 		</div>
 
@@ -70,6 +70,9 @@ export default function Home() {
 		</div>
 
 {/* ACTOR TYPE */}
+		<div className={styles.heading_text_container}>
+			<h2>Character Type</h2>
+		</div>
 		<div className={styles.brief_bio_container}>
 			<BriefBio />
 			<BioImages />
