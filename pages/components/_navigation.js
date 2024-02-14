@@ -10,7 +10,7 @@ export default function Navigation() {
 						<a href="/">HOME</a>
 						</li>
 	  			<li>
-						<a href="https://vimeo.com/williamrichardhurst">REEL</a>
+						<a href="https://vimeo.com/williamrichardhurst">REELS</a>
 						</li>
 					<li>
 						<Link href="/_resume-page">RESUME</Link>

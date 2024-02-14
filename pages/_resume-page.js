@@ -19,7 +19,8 @@ export default function ResumePage() {
 
 			{/*	PAGE TITLE */}
 				<div className={styles.title}>
-					<h1>William Hurst</h1>
+					<h1>Resume</h1>
+					<h4>William Hurst</h4>
 				</div>
 				<hr />
 
