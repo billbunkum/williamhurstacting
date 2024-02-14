@@ -11,7 +11,7 @@ import SocialIcons from './components/_social-icons'
 
 const lexend = Lexend({ subsets: ['latin-ext'] });
 
-export default function ContactPage() {
+export default function ProjectsPage() {
 	return (
 		<>
 			<HeaderPart />
@@ -36,7 +36,7 @@ export default function ContactPage() {
 					<SocialIcons />
 				</div>
 
-			{/* CONTACT FORM */}
+			{/* PROJECTS */}
 				<div>
 				</div>
 

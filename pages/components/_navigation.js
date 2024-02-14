@@ -16,13 +16,13 @@ export default function Navigation() {
 						<Link href="/_resume-page">RESUME</Link>
 						</li>
 					<li>
-	  				<a href="#">CONTACT</a>
+	  				<a href="/_contact-page">CONTACT</a>
 						</li>
 					<li>					
-						<a href="#">ABOUT</a>
+						<a href="/_about-page">ABOUT</a>
 						</li>
 					<li>
-						<a href="#">PROJECTS</a>
+						<a href="/_projects-page">PROJECTS</a>
 						</li>
 				</ul>
 			</div>
