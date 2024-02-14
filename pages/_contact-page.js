@@ -3,6 +3,7 @@ import { Advent_Pro, Inter, Lexend } from 'next/font/google'
 
 import HeaderPart from './components/_header-part'
 
+import ContactForm from './components/_contact-form'
 import Navigation from './components/_navigation'
 import ReelComedic from './components/_reel-comedic'
 import ReelDramatic from './components/_reel-dramatic'
@@ -37,9 +38,7 @@ export default function ContactPage() {
 				</div>
 
 			{/* CONTACT FORM */}
-				<div>
-				</div>
-
+				<ContactForm />
 
 			{/* FOOTER LINKS */}
 				<div className={styles.navigation}>
