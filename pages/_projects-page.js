@@ -6,6 +6,7 @@ import HeaderPart from './components/_header-part'
 import BriefBio from './components/_brief-bio'
 import BioImages from './components/_bio-images'
 import Navigation from './components/_navigation'
+import Projects from './components/_projects'
 import ReelComedic from './components/_reel-comedic'
 import ReelDramatic from './components/_reel-dramatic'
 import ReelFull from './components/_reel-full'
@@ -39,10 +40,7 @@ export default function ProjectsPage() {
 				</div>
 
 			{/* PROJECTS */}
-				<div className={styles.brief_bio_container}>
-					<BriefBio />
-					<BioImages />
-				</div>
+				<Projects />
 
 			{/* FOOTER LINKS */}
 				<div className={styles.navigation}>

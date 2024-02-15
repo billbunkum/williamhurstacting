@@ -1,7 +1,10 @@
+import styles from '@/styles/Home.module.css'
+
 export default function Projects() {
 	return (
 		<>
-			<h2>Projects</h2>
+		<div className={styles.projectspage_projects_container}>
+			<h4>Nocturne (2024)</h4>
 			{/*Nocturne*/}
 			<iframe
 				width="560"
@@ -14,7 +17,12 @@ export default function Projects() {
 				>
 			</iframe>
 
+			{/*Wendell Watkins is Falling*/}
+			{/*King of Cribbage*/}
+			{/*100 Years of the Kentucky Theatre*/}
+
 			{/*The Startup web series*/}
+			<h4>The Startup (2018-Present)</h4>
 			<iframe
 				width="560"
 				height="315"
@@ -27,7 +35,11 @@ export default function Projects() {
 				>
 			</iframe>
 
+			{/*The Chronometry Device*/}
+
+
 			{/*The Biz*/}
+			<h4>The Biz (2018)</h4>
 			<iframe
 				width="560"
 				height="315"
@@ -39,6 +51,7 @@ export default function Projects() {
 				>
 			</iframe>
 
+		</div>
 		</>
 	);
 }
