@@ -219,10 +219,7 @@
 .contact_form {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
 	align-items: center;
-	padding: .8rem;
 }
 	.contact_form form textarea {
 		display: flex;
