@@ -4,8 +4,9 @@ export default function Projects() {
 	return (
 		<>
 		<div className={styles.projectspage_projects_container}>
-			<h4>Nocturne (2024)</h4>
+
 			{/*Nocturne*/}
+			<h4>Nocturne (2024)</h4>
 			<iframe
 				width="560"
 				height="315"
@@ -18,8 +19,19 @@ export default function Projects() {
 			</iframe>
 
 			{/*Wendell Watkins is Falling*/}
+			<h4>Wendell Watkins is Falling (2023)</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DXAifQUVQGY?si=4MEVSt9_s2n6PExF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+			{/*Fast Food*/}
+
+
 			{/*King of Cribbage*/}
+			<h4>King of Cribbage</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Z12AR_Imtc?si=sy_otL7PSl3xR-Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 			{/*100 Years of the Kentucky Theatre*/}
+			<h4>100 Years of the Kentucky Theatre</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XigzIsAq08c?si=elt88bHPd3p6gQM-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 			{/*The Startup web series*/}
 			<h4>The Startup (2018-Present)</h4>
