@@ -216,15 +216,24 @@
 	width: 100%;	
 }
 
+/*CONTACT FORM*/
+.text_area {
+	height: 200px;
+	margin: 10px 0px 10px 0px;
+}
+
+/*
 .contact_form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-	.contact_form form textarea {
-		display: flex;
-		height: 200px;
+	.contact_form form {
+		height: 500px;
 	}
+	.contact_form form textarea {
+	}
+*/
 
 /*REELS PAGE*/
 .reels_page_reels_container {

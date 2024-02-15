@@ -3,7 +3,11 @@ import styles from '@/styles/Home.module.css'
 export default function ContactForm() {
 	return (
 		<>
-		<div className={styles.contact_form}>
+		
+{/*		<div className={styles.contact_form}>*/}
+	<div className="row">
+	<div className="col m2"></div>
+		<div className="col s12 m8">
 			<form
   			action="https://formspree.io/f/xvoearob"
   			method="POST"
@@ -11,26 +15,29 @@ export default function ContactForm() {
 
 				<div className="input-field">
 					<input id="fullname" placeholder="Full Name" 
+						className={styles.input_area}
+						maxLength="747"
 						type="text" 
 						name="fullname" />
-					<label htmlfor="fullname">Your Name</label>
+					<label className="active" htmlfor="fullname">Your Name</label>
 				</div>
 
 				<div className="input-field">	
 					<input id="email" placeholder="you@email-address.com"
-							data-length="320"
-							type="email"
-							name="email" />
-					<label htmlfor="email">Your Email</label>
+						className={styles.input_area}
+						maxLength="320"
+						type="email"
+						name="email" />
+					<label className="active" htmlfor="email">Your Email</label>
 				</div>  			
 				
 				<div className="input-field">
 					<textarea id="message" placeholder="Hey William!, you're perfect for the part!"
-						data-length="500"
-						name="message"
 						className={styles.text_area}
+						maxLength="500"
+						name="message"
 					></textarea>
-					<label htmlfor="message">Your Message</label>
+					<label className="active" htmlfor="message">Your Message</label>
 				</div>
 
 				<br />	
@@ -40,6 +47,9 @@ export default function ContactForm() {
 {/*  			<button type="submit">Send</button>*/}
 			</form>
 		</div>
+	<div className="col m2"></div>
+	</div>
+{/*		</div>*/}
 		</>
 	);
 }
