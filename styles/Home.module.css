@@ -216,6 +216,18 @@
 	width: 100%;	
 }
 
+.contact_form {
+	background-color: darkblue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+	.contact_form label, .contact_form textarea {
+	}
+
+	.contact_form textarea {
+	}
+
 /*REELS PAGE*/
 .reels_page_reels_container {
 	display: flex;
