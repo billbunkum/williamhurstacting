@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 export default function ActorBioFull() {
 	return (
 		<>
-		<div className={styles.full_bio_container}>
+		<div className={styles.about_full_bio_container}>
 
 			<div className={styles.about_intro}>
 				<h4>About</h4>

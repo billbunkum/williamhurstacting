@@ -223,16 +223,24 @@
 }
 
 /*ACTOR FULL BIO*/
-.full_bio_container {
+.about_full_bio_container {
 	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	padding: 2rem;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: space-between;
+	padding: .8rem;
 }
-	.full_bio_container p {
+	.about_full_bio_container p {
 		display: flex;
+		align-self: flex-start;
 		margin: 1rem;
+		width: 300px;
 	}
+	.about_intro {}
+	.about_charactertype {}
+	.about_experience {}
+	.about_history {}
 
 /*REELS PAGE*/
 .reels_page_reels_container {
