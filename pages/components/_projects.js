@@ -6,12 +6,12 @@ export default function Projects() {
 		<div className={styles.projectspage_projects_container}>
 
 			{/*Nocturne*/}
-			<div className={styles.nocturne}>
+{/*			<div className={styles.nocturne}>
 				<h4>Nocturne (2024)</h4>
 				<iframe
 				width="560"
 				height="315"
-				src="https://www.youtube.com/embed/fX_eVzZflXE?si=vtbMgybyGy5_rM5i" 				title="YouTube video player"
+				src="#" 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				allowfullscreen
@@ -19,7 +19,7 @@ export default function Projects() {
 				>
 				</iframe>
 			</div>
-
+*/}
 			{/*Wendell Watkins is Falling*/}
 			<div className={styles.wwif}>
 				<h4>Wendell Watkins is Falling (2023)</h4>

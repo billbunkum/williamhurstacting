@@ -255,23 +255,23 @@
 	.projectspage_projects_container iframe {
 		margin-bottom: 2rem;
 	}
-	.nocturne { 
+/*	.nocturne { 
 		order: 1;
-	}
+	}*/
 	.king_of_cribbage {
-		order: 3;
-	}
-	.hundred_years {
-		order: 4;
-	}
-	.the_startup {
-		order: 5;
-	}
-	.wwif {
 		order: 2;
 	}
+	.hundred_years {
+		order: 3;
+	}
+	.the_startup {
+		order: 4;
+	}
+	.wwif {
+		order: 1;
+	}
 	.the_biz {
-		order: 6;
+		order: 5;
 	}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
