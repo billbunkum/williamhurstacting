@@ -6,8 +6,9 @@ export default function Projects() {
 		<div className={styles.projectspage_projects_container}>
 
 			{/*Nocturne*/}
-			<h4>Nocturne (2024)</h4>
-			<iframe
+			<div className={styles.nocturne}>
+				<h4>Nocturne (2024)</h4>
+				<iframe
 				width="560"
 				height="315"
 				src="https://www.youtube.com/embed/fX_eVzZflXE?si=vtbMgybyGy5_rM5i" 				title="YouTube video player"
@@ -16,26 +17,34 @@ export default function Projects() {
 				allowfullscreen
 				alt="Nocturne"
 				>
-			</iframe>
+				</iframe>
+			</div>
 
 			{/*Wendell Watkins is Falling*/}
-			<h4>Wendell Watkins is Falling (2023)</h4>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DXAifQUVQGY?si=4MEVSt9_s2n6PExF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div className={styles.wwif}>
+				<h4>Wendell Watkins is Falling (2023)</h4>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/DXAifQUVQGY?si=4MEVSt9_s2n6PExF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
 
 			{/*Fast Food*/}
 
 
 			{/*King of Cribbage*/}
-			<h4>King of Cribbage</h4>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5Z12AR_Imtc?si=sy_otL7PSl3xR-Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div className={styles.king_of_cribbage}>
+				<h4>King of Cribbage</h4>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/5Z12AR_Imtc?si=sy_otL7PSl3xR-Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
 
 			{/*100 Years of the Kentucky Theatre*/}
-			<h4>100 Years of the Kentucky Theatre</h4>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XigzIsAq08c?si=elt88bHPd3p6gQM-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div className={styles.hundred_years}>
+				<h4>100 Years of the Kentucky Theatre</h4>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/XigzIsAq08c?si=elt88bHPd3p6gQM-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
 
 			{/*The Startup web series*/}
-			<h4>The Startup (2018-Present)</h4>
-			<iframe
+			<div className={styles.the_startup}>
+				<h4>The Startup (2018-Present)</h4>
+				<iframe
 				width="560"
 				height="315"
 				src="https://www.youtube.com/embed/videoseries?si=OZaYS3pBqqiRqOw4&amp;list=PLkrxW47EGm07km5nzNC2ko4mGQ4pTTI3v"
@@ -45,14 +54,15 @@ export default function Projects() {
 				allowfullscreen
 				alt="The Startup web series"
 				>
-			</iframe>
-
+				</iframe>
+			</div>
 			{/*The Chronometry Device*/}
 
 
 			{/*The Biz*/}
-			<h4>The Biz (2018)</h4>
-			<iframe
+			<div className={styles.the_biz}>
+				<h4>The Biz (2018)</h4>
+				<iframe
 				width="560"
 				height="315"
 				src="https://www.youtube.com/embed/vToNdyuSoAs?si=GoOLOYISeY0E_kn5" 				title="YouTube video player"
@@ -61,8 +71,8 @@ export default function Projects() {
 				allowfullscreen
 				alt="The Biz"
 				>
-			</iframe>
-
+				</iframe>
+			</div>
 		</div>
 		</>
 	);

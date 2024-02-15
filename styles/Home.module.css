@@ -246,13 +246,47 @@
 /*PROJECTS COMPONENT*/
 .projectspage_projects_container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	align-items: center;
 	padding: 2rem;
 }
 	.projectspage_projects_container iframe {
 		margin-bottom: 2rem;
 	}
+	.nocturne { 
+		order: 1;
+	}
+	.king_of_cribbage {
+		order: 3;
+	}
+	.hundred_years {
+		order: 4;
+	}
+	.the_startup {
+		order: 5;
+	}
+	.wwif {
+		order: 2;
+	}
+	.the_biz {
+		order: 6;
+	}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .projectspage_projects_container {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		padding: .1rem;
+  }
+		.projectspage_projects_container iframe {
+			max-width: 330px;
+			max-height: 186px;
+		}
+}
+
+
 
 /*REELS PAGE*/
 .reels_page_reels_container {
