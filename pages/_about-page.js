@@ -22,7 +22,7 @@ export default function AboutPage() {
 
 			{/*	PAGE TITLE */}
 				<div className={styles.title}>
-					<h1>Reels</h1>
+					<h1>About</h1>
 					<h4>William Hurst</h4>
 				</div>
 				<hr />
@@ -38,10 +38,7 @@ export default function AboutPage() {
 				</div>
 
 			{/* ABOUT ME */}
-				<div>
-					<ActorBioFull />
-				</div>
-
+				<ActorBioFull />
 
 			{/* FOOTER LINKS */}
 				<div className={styles.navigation}>

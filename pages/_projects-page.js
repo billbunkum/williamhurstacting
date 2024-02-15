@@ -23,7 +23,7 @@ export default function ProjectsPage() {
 
 			{/*	PAGE TITLE */}
 				<div className={styles.title}>
-					<h1>Reels</h1>
+					<h1>Projects</h1>
 					<h4>William Hurst</h4>
 				</div>
 				<hr />

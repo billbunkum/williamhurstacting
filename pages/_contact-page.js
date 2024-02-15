@@ -22,7 +22,7 @@ export default function ContactPage() {
 
 			{/*	PAGE TITLE */}
 				<div className={styles.title}>
-					<h1>Reels</h1>
+					<h1>Contact</h1>
 					<h4>William Hurst</h4>
 				</div>
 				<hr />
