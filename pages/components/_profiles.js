@@ -31,5 +31,6 @@ export default function ProfileLinks() {
 					</li>	
 				</ul>
 			</div>
+		</>
 	);
 }
