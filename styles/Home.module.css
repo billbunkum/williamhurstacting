@@ -237,11 +237,9 @@
 		margin: 1rem;
 		width: 300px;
 	}
-/*UNUSED*/
-	.about_intro {}
-	.about_charactertype {}
-	.about_experience {}
-	.about_history {}
+	.about_intro h4, .about_charactertype h4, .about_experience h4, .about_history h4 { 
+		padding-left: .6rem; 
+	}
 
 /*PROJECTS COMPONENT*/
 .projectspage_projects_container {
