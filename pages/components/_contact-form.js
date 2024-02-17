@@ -18,7 +18,8 @@ export default function ContactForm() {
 						className={styles.input_area}
 						maxLength="747"
 						type="text" 
-						name="fullname" />
+						name="fullname"
+						required />
 					<label className="active" htmlfor="fullname">Your Name</label>
 				</div>
 
@@ -27,7 +28,8 @@ export default function ContactForm() {
 						className={styles.input_area}
 						maxLength="320"
 						type="email"
-						name="email" />
+						name="email"
+						required />
 					<label className="active" htmlfor="email">Your Email</label>
 				</div>  			
 				
@@ -36,14 +38,19 @@ export default function ContactForm() {
 						className={styles.text_area}
 						maxLength="500"
 						name="message"
+						required
 					></textarea>
 					<label className="active" htmlfor="message">Your Message</label>
 				</div>
 
 				<br />	
-				<a
+				<button type="submit"
+				className="purple waves-effect waves-light btn-large">Send</button>
+{/*					<a
 					type="submit" 
 					className="purple waves-effect waves-light btn-large">Send</a>
+*/}
+
 {/*  			<button type="submit">Send</button>*/}
 			</form>
 		</div>
