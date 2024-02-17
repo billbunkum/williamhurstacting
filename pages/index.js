@@ -10,7 +10,6 @@ import HeaderPart from './components/_header-part'
 /*MY COMPONENTS*/
 import BriefBio from './components/_brief-bio'
 import BioImages from './components/_bio-images'
-import CoolButtonLinks from './components/_cool-button-links'
 import Headshots from './components/_headshots'
 import Navigation from './components/_navigation'
 import ReelComedic from './components/_reel-comedic'
@@ -82,12 +81,6 @@ export default function Home() {
 		<div className={styles.navigation}>
 			<Navigation />
 		</div>
-
-{/* COOL TILE BUTTONS  */}
-{/*		<div>
-			<CoolButtonLinks />
-		</div>
-*/}
 
   	</main>
   </>
