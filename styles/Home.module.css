@@ -271,6 +271,9 @@
 	.the_biz {
 		order: 5;
 	}
+		.king_of_cribbage h4, .hundred_years h4, .the_startup h4, .wwif h4, .the_biz h4 {
+			padding-left: .6rem; 
+		}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .projectspage_projects_container {
