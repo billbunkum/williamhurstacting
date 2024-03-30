@@ -257,19 +257,22 @@
 		order: 1;
 	}*/
 	.king_of_cribbage {
-		order: 2;
+		order: 4;
 	}
 	.hundred_years {
 		order: 3;
 	}
 	.the_startup {
-		order: 4;
+		order: 5;
 	}
 	.wwif {
-		order: 1;
+		order: 2;
 	}
 	.the_biz {
-		order: 5;
+		order: 6;
+	}
+	.thy_will_be_done {
+		order: 1;
 	}
 		.king_of_cribbage h4, .hundred_years h4, .the_startup h4, .wwif h4, .the_biz h4 {
 			padding-left: .6rem; 
