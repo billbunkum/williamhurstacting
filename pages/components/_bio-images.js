@@ -10,6 +10,7 @@ export default function BioImages() {
 				alt="'Goodbye Charles' monologue"
 				>
 					<img
+					loading="lazy"
 					src="/assets/other-pics/clueless-love-interest-goodbyecharles.png"
 					className={styles.love_interest}
 					alt="kennedy"
@@ -21,6 +22,7 @@ export default function BioImages() {
 				alt="'The Biz' short film"
 				>
 					<img
+					loading="lazy"
 					src="/assets/other-pics/confident-villain-thebiz.jpg"
 					className={styles.confident_villain_thebiz}
 					alt="CEO"
@@ -32,6 +34,7 @@ export default function BioImages() {
 				alt="'Wendell Watkins is Falling' short film"
 				>
 					<img
+					loading="lazy"
 					src="/assets/other-pics/matter-of-fact-wwif-arthur.jpg"
 					className={styles.arthur}
 					alt="arthur"
@@ -43,6 +46,7 @@ export default function BioImages() {
 				alt="'Tomorrow, tomorrow and tomorrow' Macbeth monologue"
 				>
 					<img
+					loading="lazy"
 					src="/assets/other-pics/ennui-macbeth.png"
 					className={styles.ennui_macbeth}
 					alt="macbeth"
@@ -54,6 +58,7 @@ export default function BioImages() {
 				alt="'100 Years of the KY Theatre' short film"
 				>
 					<img
+					loading="lazy"
 					src="/assets/other-pics/100-years-headshot-uncertain.png"
 					className={styles.hundred_years_uncertain}
 					alt="100 Years headshot"
@@ -65,6 +70,7 @@ export default function BioImages() {
 				alt="'King of Cribbage' short film"
 				>
 					<img
+					loading="lazy"
 					src="/assets/other-pics/king-of-cribbage-radioshow.png"
 					className={styles.king_of_cribbage_snarky}
 					alt="King of Cribbage snarky headshot"
@@ -76,6 +82,7 @@ export default function BioImages() {
 				alt="'King of Cribbage' short film"
 				>
 					<img
+					loading="lazy"
 					src="/assets/other-pics/king-of-cribbage-flummoxed.png"
 					className={styles.king_of_cribbage_flummoxed}
 					alt="King of Cribbage flummoxed headshot"

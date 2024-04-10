@@ -5,6 +5,7 @@ export default function Resume() {
 		<>
 			<div className={styles.resume_field}>
 				<img 
+				loading="lazy"
 				src="/assets/resume/actorResume-020424.png" 
 				className={styles.resume_image}
 				alt="Actor Resume here"

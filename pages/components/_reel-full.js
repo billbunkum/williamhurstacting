@@ -2,6 +2,7 @@ export default function ReelFull() {
 	return (
 		<>
 			<iframe 
+			loading="lazy"
 			src="https://www.youtube.com/embed/eBjX38MUQ98?si=7jGXINGjYiRgyqOc"
 			title="YouTube video player" 
 			frameBorder="0" 

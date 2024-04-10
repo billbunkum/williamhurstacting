@@ -13,10 +13,10 @@ export default function ActorBioFull() {
 
 			<div className={styles.about_charactertype}>
 				<h4>Type</h4>
-				<p>William excels at playing the nerdy love interest, the quirky office worker, or the brooding antihero, conniving villain, or sardonic gameshow host.
+				<p>William excels at playing the loner hacker, geeky love interest, brooding antihero, conniving villain, and silly gameshow host.
 He enjoys both dramatic and comedic roles and can perform a wide range of emotions and character ages.
 			 	</p>
-				<p>As a Voice Actor, he excels at youthful heroes, geeky sidekicks, and serious villains.
+				<p>As a Voice Actor, he excels at youthful heroes, geeky sidekicks, and deadly and over-serious villains.
 			 	</p>
 			</div>
 
