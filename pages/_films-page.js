@@ -24,7 +24,7 @@ export default function FilmsPage() {
 
 			{/*	PAGE TITLE */}
 				<div className={styles.title}>
-					<h1>Projects</h1>
+					<h1>Short Films</h1>
 					<h4>William Hurst</h4>
 				</div>
 				<hr />

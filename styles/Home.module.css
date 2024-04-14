@@ -241,8 +241,8 @@
 		padding-left: .6rem; 
 	}
 
-/*PROJECTS COMPONENT*/
-.projectspage_projects_container {
+/*FILMS & SCENES COMPONENTS*/
+.filmspage_films_container, .scenes_page_scenes_container{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -250,47 +250,55 @@
 	align-items: center;
 	padding: 2rem;
 }
-	.projectspage_projects_container iframe {
-		margin-bottom: 2rem;
+	.filmspage_films_container iframe, .scenes_page_scenes_container iframe {
+		margin: 0rem 0.5rem 2rem 0.5rem;
 	}
 /*	.nocturne { 
 		order: 1;
 	}*/
-	.king_of_cribbage {
-		order: 4;
-	}
-	.hundred_years {
+	.filmspage_films_container iframe .king_of_cribbage_film {
 		order: 3;
 	}
-	.the_startup {
-		order: 5;
-	}
-	.wwif {
+	.filmspage_films_container iframe .hundred_years_film {
 		order: 2;
 	}
-	.the_biz {
-		order: 6;
+	.filmspage_films_container iframe .the_startup_webseries {
+		order: 4;
 	}
-	.thy_will_be_done {
+	.filmspage_films_container iframe .wwif_film {
 		order: 1;
 	}
-		.king_of_cribbage h4, .hundred_years h4, .the_startup h4, .wwif h4, .the_biz h4 {
+	.filmspage_films_container iframe .the_biz_film {
+		order: 5;
+	}
+	.filmspage_films_container iframe .the_chronometry_device_film {
+		order: 6;
+	}
+	
+	/*SCENES*/
+	.scenes_page_scenes_container iframe .thy_will_be_done_scene {
+}
+	.scenes_page_scenes_container iframe .the_notebook_monologue {
+}
+	.scenes_page_scenes_container iframe .macbeth_monologue {
+}
+	.scenes_page_scenes_container iframe .goodbye_charles_monologue {
+}
+		.king_of_cribbage_film h4, .hundred_years_film h4, .the_startup_film h4, .wwif_film h4, .the_biz_film h4, .the_chronometry_device_film, .thy_will_be_done_scene h4, .the_notebook_monologue h4, .macbeth_monologue h4, .goodbye_charles_monologue h4 {
 			padding-left: .6rem; 
 		}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .projectspage_projects_container {
+  .filmspage_films_container,	.scenes_page_scenes_container {
 		flex-direction: column;
 		flex-wrap: nowrap;
 		padding: .1rem;
   }
-		.projectspage_projects_container iframe {
+		.filmspage_films_container iframe, .scenes_page_scenes_container iframe {
 			max-width: 330px;
 			max-height: 186px;
 		}
 }
-
-
 
 /*REELS PAGE*/
 .reels_page_reels_container {

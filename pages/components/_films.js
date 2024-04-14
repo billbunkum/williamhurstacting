@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 export default function Films() {
 	return (
 		<>
-		<div className={styles.projectspage_projects_container}>
+		<div className={styles.filmspage_films_container}>
 
 			{/*Nocturne*/}
 {/*			<div className={styles.nocturne}>
@@ -21,7 +21,7 @@ export default function Films() {
 			</div>
 */}
 			{/*Wendell Watkins is Falling*/}
-			<div className={styles.wwif}>
+			<div className={styles.wwif_film}>
 				<h4>Wendell Watkins is Falling (2023)</h4>
 				<iframe 
 					loading="lazy"
@@ -37,7 +37,7 @@ export default function Films() {
 
 
 			{/*King of Cribbage*/}
-			<div className={styles.king_of_cribbage}>
+			<div className={styles.king_of_cribbage_film}>
 				<h4>King of Cribbage</h4>
 				<iframe 
 					loading="lazy"
@@ -45,8 +45,8 @@ export default function Films() {
 			</div>
 
 			{/*100 Years of the Kentucky Theatre*/}
-			<div className={styles.hundred_years}>
-				<h4>100 Years of the Kentucky Theatre</h4>
+			<div className={styles.hundred_years_film}>
+				<h4>100 Years of the Ky Theatre</h4>
 				<iframe
 					loading="lazy"
 					width="560" 
@@ -61,7 +61,7 @@ export default function Films() {
 			</div>
 
 			{/*The Startup web series*/}
-			<div className={styles.the_startup}>
+			<div className={styles.the_startup_webseries}>
 				<h4>The Startup (2018-Present)</h4>
 				<iframe
 					loading="lazy"
@@ -76,11 +76,27 @@ export default function Films() {
 				>
 				</iframe>
 			</div>
-			{/*The Chronometry Device*/}
 
+			{/*The Chronometry Device*/}
+			<div className={styles.the_chronometry_device_film}>
+				<h4>The Chronometry Device (2022)</h4>
+				<iframe
+					loading="lazy"
+					width="560" 
+					height="315" 
+					src="https://www.youtube.com/embed/NacxZfmlCYs?si=q65FglTue7q3-gjl" 
+					title="YouTube video player" 
+					frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+					referrerpolicy="strict-origin-when-cross-origin" 
+					allowfullscreen
+					alt="The Chronometry Device"
+				>
+				</iframe>
+			</div>
 
 			{/*The Biz*/}
-			<div className={styles.the_biz}>
+			<div className={styles.the_biz_film}>
 				<h4>The Biz (2018)</h4>
 				<iframe
 					loading="lazy"
