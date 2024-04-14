@@ -22,7 +22,7 @@ export default function Navigation() {
 						<a href="/_about-page">ABOUT</a>
 						</li>
 					<li>
-						<a href="/_projects-page">PROJECTS</a>
+						<a href="/_films-page">FILMS</a>
 						</li>
 				</ul>
 			</div>

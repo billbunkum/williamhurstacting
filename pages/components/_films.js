@@ -1,6 +1,6 @@
 import styles from '@/styles/Home.module.css'
 
-export default function Projects() {
+export default function Films() {
 	return (
 		<>
 		<div className={styles.projectspage_projects_container}>

@@ -6,7 +6,7 @@ import HeaderPart from './components/_header-part'
 import BriefBio from './components/_brief-bio'
 import BioImages from './components/_bio-images'
 import Navigation from './components/_navigation'
-import Projects from './components/_projects'
+import Films from './components/_Films'
 import ReelComedic from './components/_reel-comedic'
 import ReelDramatic from './components/_reel-dramatic'
 import ReelFull from './components/_reel-full'
@@ -14,7 +14,7 @@ import SocialIcons from './components/_social-icons'
 
 const lexend = Lexend({ subsets: ['latin-ext'] });
 
-export default function ProjectsPage() {
+export default function FilmsPage() {
 	return (
 		<>
 			<HeaderPart />
@@ -39,8 +39,8 @@ export default function ProjectsPage() {
 					<SocialIcons />
 				</div>
 
-			{/* PROJECTS */}
-				<Projects />
+			{/* FILMS */}
+				<Films />
 
 			{/* FOOTER LINKS */}
 				<div className={styles.navigation}>
