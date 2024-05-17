@@ -76,6 +76,9 @@
 				order: 1;
 			}
 
+.click {
+	text-align: center;
+}
 .headshots {
 	display: flex;
 	flex-direction: row;

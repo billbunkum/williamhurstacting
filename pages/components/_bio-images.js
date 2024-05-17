@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 export default function BioImages() {
 	return ( 
 		<>
+			<h2 className={styles.click}>Click to watch full projects.</h2>
 			<div className={styles.brief_bio__bio_images}>
 
 				<a href="https://youtu.be/RKpeT5sr_gg"

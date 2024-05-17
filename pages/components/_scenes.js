@@ -7,11 +7,13 @@ export default function Scenes() {
 				{/*Thy Will Be Done*/}
 				<div className={styles.thy_will_be_done_scene}>
 					<h4>Thy Will Be Done (2024)</h4>	
+{/*<!--src="https://www.youtube.com/embed/1X9-4FqLXII?si=hrLLi4-Bk343Ph2S" 
+ORIGINAL VERSION -->*/}
 					<iframe 
 						loading="lazy"
 						width="560" 
 						height="315"
-						src="https://www.youtube.com/embed/1X9-4FqLXII?si=hrLLi4-Bk343Ph2S" 
+						src="https://www.youtube.com/embed/p8zErUBe_N8?si=R0oSFTtJN_FYEZkv"
 						title="YouTube video player" 
 						frameborder="0" 
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
