@@ -38,10 +38,10 @@ export default function ReelsPage() {
 
 			{/* REELS */}
 				<div className={styles.reels_page_reels_container}>
-					<div className={styles.container__reel}>
+{/*					<div className={styles.container__reel}>
 						<ReelFull />
 					</div>					
-
+*/}
 					<div className={styles.container__reel}>
 						<ReelComedic />
 					</div>
