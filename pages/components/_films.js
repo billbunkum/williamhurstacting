@@ -5,6 +5,34 @@ export default function Films() {
 		<>
 		<div className={styles.filmspage_films_container}>
 
+			{/*Weekly Short Films*/}
+				<div className={styles.weekly}>
+					<h4>Weekly Short Films</h4>
+					<iframe 
+						width="560" 
+						height="315" 
+						src="https://www.youtube.com/embed/videoseries?si=hdCAHWGo0icz6I44&amp;list=PLhWPNW-JgaZM0-7jhOaG_rrE1olATQU3L" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+				</iframe>
+				</div>
+			{/*Scene Work*/}
+				<div className={styles.scene_work}>
+					<h4>Scene Work</h4>
+					<iframe 
+						width="560" 
+						height="315" 
+						src="https://www.youtube.com/embed/videoseries?si=M71k4E7IIg_0EIMV&amp;list=PLhWPNW-JgaZPAdmgR9LQNtIkeM-XMs0nP" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+					</iframe>
+				</div>
 			{/*Nocturne*/}
 {/*			<div className={styles.nocturne}>
 				<h4>Nocturne (2024)</h4>
