@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+```list Node Environments
+`$ nvm list`
+
+```use lts/iron
+
+`$ nvm use lts/iron`
+
+run the development server:
 
 ```bash
 npm run dev
