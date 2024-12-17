@@ -6,7 +6,7 @@ import HeaderPart from './components/_header-part'
 import Navigation from './components/_navigation'
 import ReelComedic from './components/_reel-comedic'
 import ReelDramatic from './components/_reel-dramatic'
-import ReelFull from './components/_reel-full'
+import Clips from './components/_clips'
 import SocialIcons from './components/_social-icons'
 
 const lexend = Lexend({ subsets: ['latin-ext'] });
@@ -38,10 +38,10 @@ export default function ReelsPage() {
 
 			{/* REELS */}
 				<div className={styles.reels_page_reels_container}>
-{/*					<div className={styles.container__reel}>
-						<ReelFull />
+					<div className={styles.container__reel}>
+						<Clips />
 					</div>					
-*/}
+
 					<div className={styles.container__reel}>
 						<ReelComedic />
 					</div>

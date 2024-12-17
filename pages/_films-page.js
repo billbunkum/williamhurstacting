@@ -5,11 +5,11 @@ import HeaderPart from './components/_header-part'
 
 import BriefBio from './components/_brief-bio'
 import BioImages from './components/_bio-images'
+import Clips from './components/_clips'
 import Navigation from './components/_navigation'
 import Films from './components/_films'
 import ReelComedic from './components/_reel-comedic'
 import ReelDramatic from './components/_reel-dramatic'
-import ReelFull from './components/_reel-full'
 import SocialIcons from './components/_social-icons'
 
 const lexend = Lexend({ subsets: ['latin-ext'] });

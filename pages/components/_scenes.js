@@ -4,6 +4,40 @@ export default function Scenes() {
 	return (
 		<>
 			<div className={styles.scenes_page_scenes_container}>
+				{/*Tony Stark Audition*/}
+					<div className={styles.tony_stark_audition}>
+					<h4>Tony Stark Audition (2008)</h4>
+					<iframe 
+						loading="lazy"
+						width="560" 
+						height="315"
+						src="https://youtube.com/embed/HY_0GHKDioI?si=TiLafULa17-ax_3x"
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen
+					>
+					</iframe>
+				</div>
+		
+				{/*New Girl Scene*/}
+				<div className={styles.new_girl_scene}>
+					<h4>New Girl scene (2011-18)</h4>	
+					<iframe 
+						loading="lazy"
+						width="560" 
+						height="315"
+						src="https://youtube.com/embed/FioetybmSRs?si=bnGrqs0153IsVUn7"
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen
+					>
+					</iframe>
+				</div>
+
 				{/*Thy Will Be Done*/}
 				<div className={styles.thy_will_be_done_scene}>
 					<h4>Thy Will Be Done (2024)</h4>	

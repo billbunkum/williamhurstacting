@@ -313,6 +313,7 @@
 }
 	.container__reel {
 		display: flex;
+		flex-direction: column;
 	}
 	.container__reel iframe {
 		width: 530px;
