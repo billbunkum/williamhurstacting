@@ -16,25 +16,25 @@ export default function Headshots() {
 	<>
     	<img className={[styles.headshots_items, styles.serious_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/will3.jpg"
+			src="/assets/headshots/moods-jpgs/4-nutJob-DSC06522.jpeg"
 			alt="Headshot Not Found"
 			/>
 
 			<img className={[styles.headshots_items, styles.seedy_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/serious-straight-headshot.jpg"
+			src="/assets/headshots/moods-jpgs/1-smiling-DSC06221.jpeg"
 			alt="Headshot Not Found"
 			/>
 
 			<img className={[styles.headshots_items, styles.jeanjacket_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/will2.jpg"
+			src="/assets/headshots/moods-jpgs/3-ProducerVillain.jpeg"
 			alt="Headshot Not Found"
 			/>
 
 			<img className={[styles.headshots_items, styles.earnest_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/goofy-2024.jpg"
+			src="/assets/headshots/moods-jpgs/4-smug-DSC06480.jpeg"
 			alt="Headshot Not Found"
 			/>
 	</>
