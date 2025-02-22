@@ -11,7 +11,7 @@ export default function SocialIcons() {
 				className={[styles.social_logos, styles.twitter].join(" ")}
 				/>
 			</a>
-			<a href="https://www.youtube.com/@william_r_hurst">
+			<a href="https://www.youtube.com/@williamhurstactor">
 				<img src="/assets/socials/youtube-logo.png"
 				className={[styles.social_logos, styles.youtube].join(" ")}
 				/>
