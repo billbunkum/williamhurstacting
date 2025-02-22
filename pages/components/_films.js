@@ -19,9 +19,9 @@ export default function Films() {
 						allowfullscreen>
 				</iframe>
 				</div>
-			{/*Scene Work*/}
+			{/*Newest Study*/}
 				<div className={styles.scene_work}>
-					<h4>Scene Work</h4>
+					<h4>Newest Study</h4>
 					<iframe 
 						width="560" 
 						height="315" 
