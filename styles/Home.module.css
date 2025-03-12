@@ -240,6 +240,12 @@
 		margin: 1rem;
 		width: 300px;
 	}
+	.about_full_bio_container .film_link {
+		display: flex;
+		align-self: flex-start;
+		margin: 1.2rem;
+		width: 300px;
+	}
 	.about_intro h4, .about_charactertype h4, .about_experience h4, .about_history h4 { 
 		padding-left: .6rem; 
 	}

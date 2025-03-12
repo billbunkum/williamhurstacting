@@ -18,12 +18,12 @@ export default function ProfileLinks() {
 				 		 </a>
 					 </li>
 
-					<li>
+/*					<li>
 						<a href="https://activepitch.com/williamhurst"
 						>Active Pitch
 				 		 </a>			
 					 </li>
-
+*/
 					<li>
 						<a href="https://pro.imdb.com/name/nm12293482/?ref_=instant_nm_2&q=william%20hurst"
 						>IMDB Pro

@@ -38,9 +38,6 @@ export default function ReelsPage() {
 
 			{/* REELS */}
 				<div className={styles.reels_page_reels_container}>
-					<div className={styles.container__reel}>
-						<Clips />
-					</div>					
 
 					<div className={styles.container__reel}>
 						<ReelComedic />
@@ -49,6 +46,11 @@ export default function ReelsPage() {
 					<div className={styles.container__reel}>
 						<ReelDramatic />
 					</div>
+
+					<div className={styles.container__reel}>
+						<Clips />
+					</div>					
+
 				</div>
 			{/* FOOTER LINKS */}
 				<div className={styles.navigation}>

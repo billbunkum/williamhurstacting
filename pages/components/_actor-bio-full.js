@@ -9,7 +9,12 @@ export default function ActorBioFull() {
 			<div className={styles.about_intro}>
 				<h4>About</h4>
 				<p>William Hurst is a professional actor living in Los Angeles, CA.
-He is currently in pre-production of a Short Film "Thy Will Be Done", creates Weekly Short Films, and consistently puts up scenes in acting class.
+He is currently in pre-production of a Short Film:</p>	
+				<Link 
+					className={styles.film_link}
+					href="https://needleinthehayfilm.com">"Needle in the Hay"
+				</Link>
+				<p>William also creates Weekly Short Films, and consistently puts up scenes in acting class.
 				</p>
 				<p>Before moving to LA, William trained Michael Chekhov with the Greater Lakes Michael Chekhov Consortium. 
 His acting career began in Kentucky and China with musical productions and community theater before moving on to live steel, improv shows with Ulfhedinn Viking Entertainment. 
@@ -18,11 +23,7 @@ His acting career began in Kentucky and China with musical productions and commu
 
 			<div className={styles.about_charactertype}>
 				<h4>Type</h4>
-				<p>William excels at playing the loner hacker, geeky love interest, brooding antihero, conniving villain, and silly gameshow host.
-He enjoys both dramatic and comedic roles and can perform a wide range of emotions and character ages.
-			 	</p>
-				<p>As a Voice Actor, he excels at youthful heroes, geeky sidekicks, and deadly villains.
-			 	</p>
+				<p>William plays both comedic and dramatic roles from the geeky love interest and cocksure billionaire to the loner hacker, brooding antihero or  conniving villain.</p>
 			</div>
 
 			<div className={styles.about_experience}>

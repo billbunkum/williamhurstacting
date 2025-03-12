@@ -60,7 +60,6 @@ export default function Home() {
 {/* REELS */}
 		<div className={styles.reels_container}>
 			<div className={styles.reels_side_reels}>
-				<Clips />
 				<ReelComedic />
 				<ReelDramatic />
 			</div>
