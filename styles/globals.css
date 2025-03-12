@@ -105,8 +105,15 @@ a {
   text-decoration: none;
 }
 
+@keyframes grow_link {
+	0% {font-size: 14px; color: inherit;}
+	50% {font-size: 16px; color: purple;}
+	100% {font-size: 14px; color: pink;}
+}
 a:hover {
-	color: red;
+	animation-name: grow_link;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 li {
