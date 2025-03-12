@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 const headshots = [
 	'/assets/headshots/melancholy-apr2024-1.jpeg',
 	'/assets/headshots/serious-straight-headshot.jpg',
-	'/assets/headshots/will1.jpg',
+	'/assets/headshots/wil1.jpg',
 	'/assets/headshots/seedy-detective.png',
 	'/assets/headshots/jean-jacket-smiling.jpg',
 	'/assets/headshots/will2.jpg',
@@ -22,7 +22,7 @@ export default function Headshots() {
 
 			<img className={[styles.headshots_items, styles.seedy_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/moods-jpgs/1-smiling-DSC06221.jpeg"
+			src="/assets/headshots/moods-jpgs/1-commercial-smiling-DSC06221.jpeg"
 			alt="Headshot Not Found"
 			/>
 
