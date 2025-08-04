@@ -34,12 +34,13 @@ export default function Films() {
 					</iframe>
 				</div>
 			{/*Nocturne*/}
-{/*			<div className={styles.nocturne}>
-				<h4>Nocturne (2024)</h4>
+			<div className={styles.nocturne}>
+				<h4>Nocturne (2025)</h4>
 				<iframe
 				width="560"
 				height="315"
-				src="#" 				title="YouTube video player"
+				src="https://www.youtube.com/embed/6hWBWLbVWX0?si=Z4sltopHFP01HecS"
+				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				allowfullscreen
@@ -47,7 +48,7 @@ export default function Films() {
 				>
 				</iframe>
 			</div>
-*/}
+
 			{/*Wendell Watkins is Falling*/}
 			<div className={styles.wwif_film}>
 				<h4>Wendell Watkins is Falling (2023)</h4>

@@ -64,6 +64,9 @@
 		margin: 0px 5px 0px 5px;
 		width: 50px;
 	}
+	.socials_items a:hover {
+		opacity: 85%;	
+	}
 		.social_logos {
 		}
 			.imdb {
