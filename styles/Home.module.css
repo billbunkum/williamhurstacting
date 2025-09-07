@@ -62,20 +62,28 @@
 	.socials_items a > img {
 		display: flex;
 		margin: 0px 5px 0px 5px;
-		width: 50px;
+/*		width: 50px;*/
 	}
 	.socials_items a:hover {
 		opacity: 85%;	
 	}
 		.social_logos {
 		}
+			.ig {
+				width: 40px;
+				order: 4;
+			}
 			.imdb {
+				width: 50px;
+
 				order: 2;
 			}
 			.twitter {
+				width: 50px;
 				order: 3;
 			}
 			.youtube {
+				width: 55px;
 				order: 1;
 			}
 

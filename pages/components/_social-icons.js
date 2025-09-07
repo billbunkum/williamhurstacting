@@ -21,6 +21,11 @@ export default function SocialIcons() {
 				className={[styles.social_logos, styles.imdb].join(" ")}
 				/>
 			</a>
+			<a href="https://instagram.com/william_r_hurst">
+				<img src="/assets/socials/instagram.png"
+				className={[styles.social_logos, styles.ig].join(" ")}
+				/>
+			</a>
 	</div>
 	
 		</>
