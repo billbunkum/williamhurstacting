@@ -21,9 +21,10 @@ export default function Navigation() {
 					<li>					
 						<a href="/_about-page">ABOUT</a>
 						</li>
-					<li>
+{/*					<li>
 						<a href="/_scenes-page">SCENES</a>
 						</li>
+*/}
 					<li>
 						<a href="/_films-page">FILMS</a>
 						</li>

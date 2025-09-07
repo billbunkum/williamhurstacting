@@ -5,23 +5,24 @@ export default function Films() {
 		<>
 		<div className={styles.filmspage_films_container}>
 
-			{/*Weekly Short Films*/}
-				<div className={styles.weekly}>
-					<h4>Weekly Short Films</h4>
+			{/*Upcoming*/}
+				<div className={styles.scene_work}>
+					<h4>Upcoming</h4>
 					<iframe 
 						width="560" 
 						height="315" 
-						src="https://www.youtube.com/embed/videoseries?si=hdCAHWGo0icz6I44&amp;list=PLhWPNW-JgaZM0-7jhOaG_rrE1olATQU3L" 
+						src="https://www.youtube.com/embed/videoseries?si=F3Eqhjqhtmj90UZ8&amp;list=PLhWPNW-JgaZMNXT11ZKwtqa1IWeWXifYc" 
 						title="YouTube video player" 
 						frameborder="0" 
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 						referrerpolicy="strict-origin-when-cross-origin" 
 						allowfullscreen>
-				</iframe>
+					</iframe>
 				</div>
-			{/*Newest Study*/}
+
+			{/*Class Training*/}
 				<div className={styles.scene_work}>
-					<h4>Newest Study</h4>
+					<h4>Class Training</h4>
 					<iframe 
 						width="560" 
 						height="315" 
@@ -33,6 +34,22 @@ export default function Films() {
 						allowfullscreen>
 					</iframe>
 				</div>
+
+			{/*Anyone But Me*/}
+				<div className={styles.weekly}>
+					<h4>Anyone But Me (2024)</h4>
+					<iframe 
+						width="560" 
+						height="315" 
+						src="https://www.youtube.com/embed/videoseries?si=hdCAHWGo0icz6I44&amp;list=PLhWPNW-JgaZM0-7jhOaG_rrE1olATQU3L" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+				</iframe>
+				</div>
+
 			{/*Nocturne*/}
 			<div className={styles.nocturne}>
 				<h4>Nocturne (2025)</h4>
@@ -48,6 +65,21 @@ export default function Films() {
 				>
 				</iframe>
 			</div>
+
+			{/*The Startup*/}
+				<div className={styles.scene_work}>
+					<h4>The Startup (2018-2021)</h4>
+					<iframe 
+						width="560" 
+						height="315" 
+						src="https://www.youtube.com/embed/videoseries?si=VnIdMedgWgDHXqVN&amp;list=PLhWPNW-JgaZPPU8dFXVchYdGC-3bBrPFb" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+					</iframe>
+				</div>
 
 			{/*Wendell Watkins is Falling*/}
 			<div className={styles.wwif_film}>
@@ -86,23 +118,6 @@ export default function Films() {
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 					allowfullscreen
 					>
-				</iframe>
-			</div>
-
-			{/*The Startup web series*/}
-			<div className={styles.the_startup_webseries}>
-				<h4>The Startup (2018-Present)</h4>
-				<iframe
-					loading="lazy"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/videoseries?si=OZaYS3pBqqiRqOw4&amp;list=PLkrxW47EGm07km5nzNC2ko4mGQ4pTTI3v"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-					alt="The Startup web series"
-				>
 				</iframe>
 			</div>
 
