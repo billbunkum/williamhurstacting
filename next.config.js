@@ -4,4 +4,5 @@ const nextConfig = {
 	output: 'export',
 }
 
+/* I clearly have to do something just so GitHub will fucking work */
 module.exports = nextConfig
