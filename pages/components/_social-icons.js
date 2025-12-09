@@ -16,7 +16,7 @@ export default function SocialIcons() {
 				className={[styles.social_logos, styles.youtube].join(" ")}
 				/>
 			</a>
-			<a href="https://pro.imdb.com/name/nm12293482/?ref_=instant_nm_2&q=william%20hurst">
+			<a href="https://www.imdb.com/name/nm12293482/">
 				<img src="/assets/socials/imdb-logo.png"
 				className={[styles.social_logos, styles.imdb].join(" ")}
 				/>
