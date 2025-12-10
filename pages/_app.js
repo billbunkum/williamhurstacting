@@ -7,6 +7,7 @@ import '@/styles/globals.css'
 	variable: "--font-advent-pro",
 });*/}
 
+
 export default function App({ Component, pageProps }) {
   return (
 		<Component {...pageProps} />
