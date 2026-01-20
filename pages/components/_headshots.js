@@ -9,6 +9,11 @@ const headshots = [
 	'/assets/headshots/will2.jpg',
 	'/assets/headshots/goofy-2024.jpg',
 	'/assets/headshots/will3.jpg',
+	'/assets/headshots/new-batch/C97A0048-cleaned.jpeg',
+	'/assets/headshots/new-batch/C97A0152-iconic-cleaned.jpeg',
+	'/assets/headshots/new-batch/C97A0198-skars-cleaned.jpeg',
+	'/assets/headshots/new-batch/C97A0330-walken-depp-cleaned.jpeg',
+	'/assets/headshots/new-batch/C97A0300-theater-cleaned.jpg',
 ];
 
 export default function Headshots() {
@@ -16,25 +21,25 @@ export default function Headshots() {
 	<>
     	<img className={[styles.headshots_items, styles.serious_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/moods-jpgs/4-nutJob-DSC06522.jpeg"
+			src="/assets/headshots/new-batch/C97A0300-theater-cleaned.jpg"
 			alt="Headshot Not Found"
 			/>
 
 			<img className={[styles.headshots_items, styles.seedy_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/moods-jpgs/1-commercial-smiling-DSC06221.jpeg"
+			src="/assets/headshots/new-batch/C97A0330-walken-depp-cleaned.jpeg"
 			alt="Headshot Not Found"
 			/>
 
 			<img className={[styles.headshots_items, styles.jeanjacket_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/moods-jpgs/3-ProducerVillain.jpeg"
+			src="/assets/headshots/new-batch/C97A0152-iconic-cleaned.jpeg"
 			alt="Headshot Not Found"
 			/>
 
 			<img className={[styles.headshots_items, styles.earnest_headshot].join(" ")}
 			loading="lazy"
-			src="/assets/headshots/moods-jpgs/4-smug-DSC06480.jpeg"
+			src="/assets/headshots/will3.jpg"
 			alt="Headshot Not Found"
 			/>
 	</>
