@@ -3,7 +3,7 @@ export default function ReelComedic() {
 		<>
 			<iframe
 			loading="lazy"
-			src="https://www.youtube.com/embed/8wCqbMzG__s?si=fMIIS00FRXnxxQ49"
+      src="https://www.youtube.com/embed/RZBYlCyLXOc?si=UsqdAL3PIaP7vfVs"
 			title="Comedic Reel"
 			frameBorder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
