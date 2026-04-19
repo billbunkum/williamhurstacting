@@ -5,12 +5,13 @@ export default function SocialIcons() {
 		<>
 {/* CHILD OF <main> */}
 		<div className={styles.socials_items}>
-			<a 
+{/*			<a 
 			href="https://twitter.com/darkeyesdesign">
 				<img src="/assets/socials/twitter-old-logo.png"
 				className={[styles.social_logos, styles.twitter].join(" ")}
 				/>
 			</a>
+*/}
 			<a href="https://www.youtube.com/@williamhurstactor">
 				<img src="/assets/socials/youtube-logo.png"
 				className={[styles.social_logos, styles.youtube].join(" ")}
