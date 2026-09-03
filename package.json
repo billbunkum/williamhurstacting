@@ -17,8 +17,10 @@
     "cwebp": "^3.2.0",
     "materialize-css": "^1.0.0-rc.2",
     "next": "14.0.4",
-    "nvm": "^0.0.4",
     "react": "^18",
     "react-dom": "^18"
-  }
+  },
+	"overrides": {
+		"postcss": "^8.4.38"
+	}
 }
