@@ -14,7 +14,6 @@ export default function Clips() {
 		<>
 
 		{/*CLIP Too French Boss - Sillitide*/}
-		<div className={styles.container__reel}>
 			<iframe 
 			loading="lazy"
 			src={clip_URLs.too_french}
@@ -23,10 +22,8 @@ export default function Clips() {
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 			allowFullScreen>
 			</iframe>
-		</div>
 
 		{/*CLIP Evil Monologue*/}
-		<div className={styles.container__reel}>
 			<iframe 
 			loading="lazy"
 			src={clip_URLs.evil_monologue}
@@ -35,10 +32,8 @@ export default function Clips() {
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 			allowFullScreen>
 			</iframe>
-		</div>
 
 		{/*CLIP Broken Man NitH*/}
-		<div className={styles.container__reel}>
 			<iframe 
 			loading="lazy"
 			src={clip_URLs.broken_man}
@@ -47,10 +42,8 @@ export default function Clips() {
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 			allowFullScreen>
 			</iframe>
-		</div>
 
 		{/*CLIP KoC - Ironic Sheriff*/}
-		<div className={styles.container__reel}>
 			<iframe 
 			loading="lazy"
 			src={clip_URLs.ironic_sheriff}
@@ -59,10 +52,8 @@ export default function Clips() {
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 			allowFullScreen>
 			</iframe>
-		</div>
 
 		{/*CLIP New Girl*/}
-		<div className={styles.container__reel}>
 			<iframe 
 			loading="lazy"
 			src={clip_URLs.new_girl}
@@ -71,10 +62,8 @@ export default function Clips() {
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 			allowFullScreen>
 			</iframe>
-		</div>
 
 		{/*CLIP Tony Stark*/}
-		<div className={styles.container__reel}>
 			<iframe 
 			loading="lazy"
 			src={clip_URLs.tony_stark}
@@ -83,7 +72,6 @@ export default function Clips() {
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 			allowFullScreen>
 			</iframe>
-		</div>
 
 		</>
 	);

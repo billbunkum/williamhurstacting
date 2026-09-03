@@ -332,21 +332,25 @@
 	.container__reel {
 		display: flex;
 		flex-direction: column;
+		width: 100%;
+		max-width: 530px; /*Caps desktop size while allowing mobile shrink */
 	}
 	.container__reel iframe {
-		width: 530px;
-		height: 315px;
-
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		height: auto;
+		border: 0;
 	}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .reels_page_reels_container {
 		justify-content: center;
-		padding: .1rem;
+		padding: .5rem;
   }
-		.container__reel {
+/*		.container__reel {
 			align-self: stretch;
 		}
+*/
 }
 
 /*
