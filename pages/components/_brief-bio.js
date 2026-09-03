@@ -4,9 +4,7 @@ export default function BriefBio() {
 	return (
 		<>
 			<div className={styles.charactertype_text}>
-				<p>William excels at playing the nerdy love interest,
-quirky office worker, or the brooding antihero,
-conniving villain, or sardonic gameshow host.
+				<p>Charming Villain • Offbeat Anti-Hero • Sardonic Everyman • Smartass with a Secret
 				</p>
 			<hr />
 			</div>

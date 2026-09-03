@@ -8,17 +8,9 @@ export default function ActorBioFull() {
 
 			<div className={styles.about_intro}>
 				<h4>About</h4>
-				<p>William Hurst is a professional actor living in Los Angeles, CA.
-He is currently in pre-production of a Short Film:</p>	
-				<Link 
-					className={styles.film_link}
-					href="https://needleinthehayfilm.com">"Needle in the Hay"
-				</Link>
-				<p>William also creates Weekly Short Films, and consistently puts up scenes in acting class.
-				</p>
-				<p>Before moving to LA, William trained Michael Chekhov with the Greater Lakes Michael Chekhov Consortium. 
-His acting career began in Kentucky and China with musical productions and community theater before moving on to live steel, improv shows with Ulfhedinn Viking Entertainment. 
-			 	</p> 
+				<p>William Hurst is a Los Angeles-based actor, writer, and producer with lead roles in numerous independent short films and experience in theater and musical theater.</p>
+<p>He has trained extensively through the Professional Artists Workshop under Gary Imhoff and Kelly Meyersfield, with additional study in Michael Chekhov technique, stage combat, stunts, and improvisation.</p>
+<p>His work spans both performance and content creation, including writing and producing the upcoming short film Needle in the Hay.</p>
 			</div>
 
 			<div className={styles.about_charactertype}>
@@ -34,13 +26,6 @@ His acting career began in Kentucky and China with musical productions and commu
 				</p>
 			</div>
 
-			<div className={styles.about_history}>
-				<h4>History</h4>
-				<p>William studied Digital Media at the University of Kentucky. He lived in China for several years studying Chinese and getting into adventures.
-				</p>
-				<p> While traveling, he began his professional acting career as well as started writing and directing short films and web series.
-				</p>
-			</div>
 		</div>
 		</>
 	);

@@ -7,11 +7,11 @@ export default function Films() {
 
 			{/*Upcoming*/}
 				<div className={styles.scene_work}>
-					<h4>Upcoming</h4>
+					<h4>Upcoming Premiere (09.12.26)</h4>
 					<iframe 
 						width="560" 
 						height="315" 
-						src="https://www.youtube.com/embed/videoseries?si=F3Eqhjqhtmj90UZ8&amp;list=PLhWPNW-JgaZMNXT11ZKwtqa1IWeWXifYc" 
+						src="https://www.youtube.com/embed/mU6Yx_jWTqI?si=hqWSHseFVS0fQHMx" 
 						title="YouTube video player" 
 						frameborder="0" 
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -35,9 +35,24 @@ export default function Films() {
 					</iframe>
 				</div>
 
-			{/*Anyone But Me*/}
+			{/*Sillitude*/}
 				<div className={styles.weekly}>
-					<h4>Skating Life (2024)</h4>
+					<h4>Sillitude (2026)</h4>
+					<iframe 
+						width="560" 
+						height="315" 
+						src="https://www.youtube.com/embed/fKcHQx7lsSc?si=gbgU4_EyLk3e-F99" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+				</iframe>
+				</div>
+
+			{/*Anyone But Me*/}
+{/*				<div className={styles.weekly}>
+					<h4>Anyone But Me (2024)</h4>
 					<iframe 
 						width="560" 
 						height="315" 
@@ -49,10 +64,11 @@ export default function Films() {
 						allowfullscreen>
 				</iframe>
 				</div>
+*/}
 
 			{/*Nocturne*/}
 			<div className={styles.nocturne}>
-				<h4>Nocturne (2025)</h4>
+				<h4>Nocturne (2023)</h4>
 				<iframe
 				width="560"
 				height="315"

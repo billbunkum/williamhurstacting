@@ -195,22 +195,22 @@
 		max-width: 400px;
 	}
 		/* DOES NOT CURRENTLY WORK */
-		.love_interest {
+		img .love_interest {
 			order: 6;
 		}
-		.confident_villian_thebiz {
+		img .confident_villian_thebiz {
 			order: 2;
 		}
-		.ennui_macbeth {
+		img .ennui_macbeth {
 			order: 3;
 		}
-		.arthur {
+		img .arthur {
 			order: 4;
 		}
-		.hundred_years_uncertain {
+		img .hundred_years_uncertain {
 			order: 5;
 		}
-		.king_of_cribbage_flummoxed {
+		img .king_of_cribbage_flummoxed {
 			order: 1;
 		}
 
@@ -224,9 +224,10 @@
 	}
 }
 
-.resume_field {
+.resume_field picture img {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	width: 100%;	
 }
 
@@ -241,7 +242,7 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: left;
+	justify-content: center;
 	align-items: space-between;
 	padding: .8rem;
 }
